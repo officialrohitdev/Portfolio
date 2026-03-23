@@ -310,6 +310,13 @@ a:hover {
   z-index: 9999999999;
 }
 
+@media (max-width: 991.98px) {
+  .cursor,
+  .cursor2 {
+    display: none;
+  }
+}
+
 /* ----------------------------------------------------------------
      [ 03 Start pages-nav]
 -----------------------------------------------------------------*/
@@ -421,12 +428,14 @@ a:hover {
   top: 30px;
   opacity: .5;
   z-index: 1;
+  border-radius: 8px;
 }
 
 .home .img img {
   position: relative;
   margin-left: 150px;
   z-index: 2;
+  border-radius: 8px;
 }
 
 .home .content .caption {
@@ -1354,8 +1363,16 @@ a:hover {
     margin-bottom: 50px;
   }
 
+  .mt-sm40 {
+    margin-top: 40px !important;
+  }
+
   .mb-sm30 {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
+  }
+
+  .resume .exp {
+    margin-bottom: 40px;
   }
 
   .section-head h3 {
@@ -1363,7 +1380,7 @@ a:hover {
   }
 
   .section-padding {
-    padding: 60px 5px;
+    padding: 30px 5px;
   }
 
   .nav-button {
@@ -1379,16 +1396,16 @@ a:hover {
   }
 
   .logo {
-    top: 10px;
-    left: 0px;
-    width: 70px;
+    top: 20px;
+    left: 15px;
+    width: 80px;
     img {
       width: 100%;
     }
   }
 
   .js .pages-nav {
-    padding: 70px 0 0;
+    padding: 100px 5px 0;
     position: fixed;
     z-index: 999;
     height: 100%;
@@ -1413,17 +1430,17 @@ a:hover {
   }
 
   .home .img img {
-    margin: 0;
+    margin-left: 15px;
   }
 
   #AboutMe {
     min-height: auto;
     height: auto;
-    padding: 30px 5px 60px;
+    padding: 30px 5px;
   }
 
   .home .img .pattern:after {
-    left: -30px;
+    left: -10px;
   }
 
   .resume .exp .date b,

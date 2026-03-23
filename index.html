@@ -25,10 +25,12 @@
     <!-- Start Loading -->
 
     <div class="loading valign text-center">
-        <div class="full-width">
-            <img src="img/loading.svg" alt="">
+        <div class='loader'>
+            <div class='insides'></div>
         </div>
     </div>
+
+    
 
     <!-- End Loading -->
 
@@ -60,6 +62,7 @@
         <!-- Home -->
 
         <div class="page home" id="page-home">
+            <div id="tsparticles"></div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 pl-0">
@@ -74,7 +77,7 @@
                             <div class="caption">
                                 <h6>Hey There!</h6>
                                 <h1>I'm Rohit Parihar</h1>
-                                <p>Frontend UI Developer with 7 years of experience in designing and building responsive user interfaces. Skilled in creating UI mockups using Figma and converting them into pixel-perfect frontend layouts.</p>
+                                <p>Frontend UI Developer with 6+ years of experience in designing and building responsive user interfaces. Skilled in creating UI mockups using Figma and converting them into pixel-perfect frontend layouts.</p>
 
                                 <div class="d-flex flex-wrap align-items-center  mt-30">
                                     <a href="img/Rohit-Parihar-cv.pdf" download class="butn butn-bg">
@@ -127,7 +130,7 @@
                                 </a>
                             </div>
 
-                            <div class="services mt-80">
+                            <div class="services mt-80 mt-sm40">
                                 <div class="sub-head mb-50">
                                     <h5>What <span>I Do</span> ?</h5>
                                 </div>
@@ -165,7 +168,7 @@
 
                                     
                                     <div class="col-md-6">
-                                        <div class="item">
+                                        <div class="item mb-0">
                                             <span class="icon ti-layout"></span>
                                             <div class="cont">
                                                 <h6>Responsive UI & Compatibility</h6>
@@ -281,7 +284,7 @@
                                 </div>
                             </div>
 
-                            <div class="skills mt-80">
+                            <div class="skills mt-80 mt-sm40">
                                 <div class="sub-head mb-50">
                                     <h5>Best <span>Skills</span></h5>
                                 </div>
@@ -775,8 +778,8 @@
                                 <p class="mb-15">Check out these live examples of websites and applications I've built using cutting-edge technologies and best practices.</p>
                             </div>
 
-                            <div class="demos mt-80">
-                                <div class="sub-head mb-50">
+                            <div class="demos mt-80 mt-sm40">
+                                <div class="sub-head mb-50 mb-sm30">
                                     <h5>Featured <span>Demos</span></h5>
                                 </div>
 
@@ -1116,6 +1119,9 @@
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/particles.js"></script>
 
     <!-- popper.min -->
     <script src="js/popper.min.js"></script>
