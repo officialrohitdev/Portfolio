@@ -1,0 +1,264 @@
+@media (max-width: 1366px) {
+  .largeContainer {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .navbar-nav {
+    gap: 15px;
+  }
+
+  .men_img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .secHead h2 {
+    font-size: 32px;
+  }
+
+  .custom-space {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .popularTreatment-wrapper {
+    flex-direction: column;
+  }
+
+  .treatment-nav ul {
+    flex-direction: row;
+  }
+
+  .treatment-nav ul .nav-link {
+    min-width: fit-content;
+    line-height: normal;
+  }
+
+  .sticky-header .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+    min-width: 80px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header.hide-nav {
+    transform: translateY(0) !important;
+  }
+
+  .navigation-container {
+    flex-direction: row-reverse;
+  }
+
+  .product-header .navbar-nav .nav-link {
+    color: var(--clr-white);
+  }
+
+  /* Toggle Nav */
+
+  .ToggleButton {
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .ToggleButton:focus {
+    box-shadow: none;
+  }
+
+  .ToggleButton span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--clr-white);
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .ToggleButton span:nth-child(2) {
+    width: 16px;
+  }
+
+  .ToggleButton[aria-expanded="true"] span {
+    background: var(--clr-white);
+  }
+
+  .ToggleButton[aria-expanded="true"]+#SideNav {
+    transform: translateX(0);
+  }
+
+  .ToggleButton[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .ToggleButton[aria-expanded="true"] span:first-child {
+    transform: rotate(-45deg);
+    top: 6px;
+    position: relative;
+  }
+
+  .ToggleButton[aria-expanded="true"] span:nth-child(3) {
+    transform: rotate(45deg);
+    top: -8px;
+    position: relative;
+  }
+
+  #sideaNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: var(--clr-dark);
+    width: 70%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    display: block;
+    z-index: 99;
+    transform: translateX(-101%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ToggleButton[aria-expanded="true"]+#sideaNav {
+    transform: translateX(0);
+  }
+
+  .nav-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .ToggleButton[aria-expanded="true"] .nav-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sidenav-logo {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-left: -10px;
+  }
+
+  .sidenav-logo img {
+    width: 150px;
+    min-width: 150px;
+  }
+
+  .sidenav-logo .gif-logo {
+    width: 60px;
+    min-width: 60px;
+  }
+
+  #sideaNav .navbar-nav {
+    margin: 0 !important;
+    height: 100%;
+    gap: 15px;
+    overflow: auto;
+  }
+
+  #sideaNav .navbar-nav .nav-item {
+    padding: 0 20px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0 !important;
+  }
+
+  /* Toggle Nav end */
+
+  .secHead,
+  .about-description {
+    text-align: center;
+  }
+
+  .secHead .divider {
+    justify-content: center;
+  }
+
+  .secHead .divider:before,
+  .secHead .divider:after {
+    display: flex;
+  }
+
+  .popularTreatment-sec {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .treatmentResult {
+    padding: 0 0 50px;
+  }
+
+  .sliderArrows {
+    top: auto;
+    justify-content: center;
+    bottom: 0;
+    transform: translateY(0);
+  }
+
+  .treatmentSlider-content {
+    flex-wrap: wrap;
+  }
+
+  .sliderAfterBefore {
+    width: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    order: 2;
+  }
+
+  .sliderContentInfo {
+    order: 3;
+    padding-bottom: 20px;
+  }
+
+  .treatmentSlider-content .sliderThumb {
+    width: 50%;
+    min-width: 50%;
+    aspect-ratio: 1;
+  }
+
+  .beforeImg,
+  .afterImg {
+    width: 40%;
+  }
+
+  .ImgArrow {
+    display: none;
+  }
+
+  .treatmentSlider-content .secHead h4,
+  .treatmentSlider-content .secHead h6,
+  .sliderContentInfo ul li {
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}

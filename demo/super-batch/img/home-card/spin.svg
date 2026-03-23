@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="202" viewBox="0 0 202 202">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffea95"/>
+      <stop offset="0.498" stop-color="#ffea95" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffea95" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4000" data-name="Group 4000" transform="translate(-2973 -7785.634)">
+    <g id="Group_3246" data-name="Group 3246" transform="translate(3063.496 7785.634)">
+      <path id="Polygon_51" data-name="Polygon 51" d="M11,0,22,101H0Z" transform="translate(21.504 101) rotate(180)" fill="url(#linear-gradient)"/>
+      <path id="Polygon_57" data-name="Polygon 57" d="M11,0,22,101H0Z" transform="translate(-0.496 101)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_3248" data-name="Group 3248" transform="translate(2995.204 7822.804) rotate(-45)">
+      <path id="Polygon_51-2" data-name="Polygon 51" d="M10.373,0,20.747,100.852H0Z" transform="translate(20.747 100.852) rotate(180)" fill="url(#linear-gradient)"/>
+      <path id="Polygon_57-2" data-name="Polygon 57" d="M10.373,0,20.747,100.852H0Z" transform="translate(0 100.852)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_3249" data-name="Group 3249" transform="translate(3137.83 7808.133) rotate(45)">
+      <path id="Polygon_51-3" data-name="Polygon 51" d="M10.373,0,20.747,100.852H0Z" transform="translate(20.747 100.852) rotate(180)" fill="url(#linear-gradient)"/>
+      <path id="Polygon_57-3" data-name="Polygon 57" d="M10.373,0,20.747,100.852H0Z" transform="translate(0 100.852)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_3247" data-name="Group 3247" transform="translate(3175 7876.13) rotate(90)">
+      <path id="Polygon_51-4" data-name="Polygon 51" d="M11,0,22,101H0Z" transform="translate(21.504 101) rotate(180)" fill="url(#linear-gradient)"/>
+      <path id="Polygon_57-4" data-name="Polygon 57" d="M11,0,22,101H0Z" transform="translate(-0.496 101)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,504 @@
+@media (max-width: 1180px) {
+  .about-star-bg-1 {
+    width: 180px;
+  }
+
+  .about-star-bg-2 {
+    width: 150px;
+  }
+
+  .footer-brandInfo .footerStar {
+    height: 25px;
+    right: 0px;
+  }
+
+  .custom-space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .product-card {
+    max-width: 100%;
+  }
+
+  .productUs {
+    min-height: 100%;
+  }
+
+  .custom-cursor {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .fooLineRight,
+  .fooLineleft {
+    top: 100px;
+    width: 200px;
+    left: -70px;
+  }
+
+  .fooLineRight {
+    right: -70px;
+    left: auto;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+  }
+
+  .BenifitImg img {
+    width: 100%;
+  }
+
+  .benifitItem {
+    margin-bottom: 20px;
+  }
+
+  .benifitRecived .row {
+    align-items: unset;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .headroom--unpinned {
+    transform: translateY(0);
+  }
+
+  /* Toggle Nav */
+
+  .ToggleButton {
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .ToggleButton:focus {
+    box-shadow: none;
+  }
+
+  .ToggleButton span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--clr-dark);
+    transition: all 0.3s ease-in-out;
+    z-index: 3;
+  }
+
+  .ToggleButton span:nth-child(2) {
+    width: 16px;
+  }
+
+  .ToggleButton[aria-expanded="true"] span {
+    background: var(--clr-white);
+  }
+
+  .ToggleButton[aria-expanded="true"]+#SideNav {
+    transform: translateX(0);
+  }
+
+  .ToggleButton[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .ToggleButton[aria-expanded="true"] span:first-child {
+    transform: rotate(-45deg);
+    top: 6px;
+    position: relative;
+  }
+
+  .ToggleButton[aria-expanded="true"] span:nth-child(3) {
+    transform: rotate(45deg);
+    top: -8px;
+    position: relative;
+  }
+
+  #sideaNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: var(--clr-white);
+    width: 50%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    display: block;
+    z-index: 99;
+    transform: translateX(-101%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ToggleButton[aria-expanded="true"]+#sideaNav {
+    transform: translateX(0);
+  }
+
+  .nav-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .ToggleButton[aria-expanded="true"] .nav-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sidenav-logo {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-border);
+    margin-bottom: 20px;
+  }
+
+  .sidenav-logo img {
+    width: 100px;
+    min-width: 100px;
+  }
+
+  .sidenav-logo .gif-logo {
+    width: 60px;
+    min-width: 60px;
+  }
+
+  #sideaNav .navbar-nav {
+    margin: 0 !important;
+    height: 100%;
+    gap: 15px;
+    overflow: auto;
+    text-align: left;
+    flex-direction: column !important;
+    align-items: flex-start;
+  }
+
+  #sideaNav .navbar-nav .nav-item {
+    padding: 0 20px;
+  }
+
+  .navbar-nav .nav-link {
+    color: var(--clr-dark);
+    margin: 0;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: var(--clr-dark);
+  }
+
+  /* Toggle Nav end */
+
+  .topBanner {
+    min-height: 70vh;
+  }
+
+  .banner-images .master-box {
+    width: 350px;
+  }
+
+  .banner-images .star-1 {
+    left: -70px;
+    width: 40px;
+    top: -40px;
+  }
+
+  .banner-images .star-2 {
+    right: -60px;
+    width: 25px;
+  }
+
+  .fooLineRight,
+  .fooLineleft,
+  .about-star-bg-1,
+  .about-star-bg-2,
+  .side-lines {
+    display: none;
+  }
+
+  .about-content,
+  .about-content-bottom {
+    text-align: center;
+  }
+
+  .about-content {
+    padding-top: 0;
+  }
+
+  .productsSwiper {
+    padding: 20px 0 0;
+  }
+
+  .footer-brandInfo .footerStar {
+    right: 40px;
+  }
+
+  .aboutUs {
+    padding-top: 85px;
+  }
+
+  .aboutVideo {
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  .forBeginners .section-title {
+    text-align: center;
+  }
+
+  .forBeginners .circle-tagline.titleLeft {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about_box {
+    padding: 15px;
+  }
+
+  .about_box .about_icon {
+    width: 54px;
+  }
+
+  .about_box h3 {
+    padding-top: 10px;
+  }
+
+  .benifitContent {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .BenifitImg {
+    text-align: center;
+  }
+
+  .BenifitImg {
+    display: none;
+  }
+
+  .benifitItem {
+    width: calc(50% - 15px);
+  }
+
+  .benifitItem p {
+    margin: 0;
+  }
+
+  .accordian-right {
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .product-top-right .sliderArrows {
+    top: auto;
+    bottom: -25px;
+    left: 0;
+    justify-content: center;
+  }
+
+  .mySwiperTop {
+    padding-bottom: 30px;
+  }
+
+  .top-circle {
+    display: none;
+  }
+
+  .custom-accordion {
+    padding: 0;
+  }
+
+  .left-top {
+    left: -70px;
+  }
+
+  .verification-wrapper {
+    min-height: 70vh;
+    padding-top: 85px;
+  }
+
+  .top-placeholder {
+    top: -130px;
+    left: 0;
+    width: 100px;
+  }
+
+  .bottom-placeholder {
+    bottom: -100px;
+    right: 0px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #sideaNav {
+    width: 80%;
+  }
+
+  .custom-space {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    min-width: 100px;
+  }
+
+  .banner-images .master-box {
+    width: 55%;
+  }
+
+  .banner-images .star-1 {
+    left: 30px;
+    width: 25px;
+    top: -30px;
+  }
+
+  .banner-images .star-2 {
+    right: 35px;
+    width: 15px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .save_content h2 {
+    top: 40%;
+    font-size: 24px;
+  }
+
+  .productsSwiper {
+    padding: 20px 50px 0;
+  }
+
+  .footer-brandInfo .footerLogo {
+    width: 200px;
+  }
+
+  .footer-brandInfo .footerStar {
+    height: 20px;
+    right: 0;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .video-section video {
+    height: 250px;
+  }
+
+  .save_content h3 {
+    font-size: 22px;
+    top: 40%;
+  }
+
+  .timeline-item {
+    padding: 20px 20px;
+  }
+
+  .play-btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .signup_content {
+    gap: 18px;
+  }
+
+  .timeline .right {
+    padding-right: 0;
+  }
+
+  .timeline .left {
+    padding-left: 0;
+  }
+
+  .benifitItem {
+    width: 100%;
+  }
+
+  .sign-up-top {
+    margin-top: 20px;
+  }
+
+  .left-top {
+    bottom: 30px;
+    left: -15px;
+  }
+
+  .right-top {
+    top: -50px;
+    right: 0;
+  }
+
+  .mySwiperTop {
+    padding-top: 0;
+  }
+
+  .product-center-content {
+    margin-top: 80px;
+  }
+
+  .product-center-content .left-top {
+    display: none;
+  }
+
+  .product-top-left .titleLeft {
+    text-align: center;
+  }
+
+  .product-top-left .titleLeft .circle-tagline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .auth-img img {
+    width: 150px;
+  }
+
+  .verification-info-img {
+    width: 90px;
+    margin-bottom: 20px;
+  }
+
+  .bottom-placeholder,
+  .top-placeholder {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 320px) {}

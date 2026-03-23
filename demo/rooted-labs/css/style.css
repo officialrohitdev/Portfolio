@@ -1,0 +1,409 @@
+/* Home page */
+
+.topBanner {
+  background: linear-gradient(165deg, rgba(37, 0, 33, 1) 0%, rgba(17, 1, 34, 1) 50%, rgba(0, 24, 27, 1) 100%);
+  padding: 110px 25px 30px;
+}
+
+.productBanner {
+  padding-bottom: 0;
+  background: linear-gradient(175deg, rgba(37, 0, 33, 1) 0%, rgba(17, 1, 34, 1) 50%, rgba(0, 24, 27, 1) 100%);
+}
+
+.banner-grid {
+  display: flex;
+  gap: 50px;
+}
+
+.banner-titleInfo {
+  min-width: 460px;
+  max-width: 460px;
+  padding-bottom: 30px;
+}
+
+.banner-titleInfo h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  line-height: 66px;
+  margin: 30px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-titleInfo .ThemeBtn {
+  margin: 15px 0 30px;
+}
+
+.reviewInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 80px;
+  background: rgb(52 38 66 / 70%);
+  align-items: center;
+  gap: 15px;
+  max-width: 310px;
+}
+
+.reviewRating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #F4E800;
+}
+
+.reviewRating i {
+  font-size: 20px;
+}
+
+.reviewInfo h6 {
+  margin: 0;
+}
+
+.reviewProfiles img {
+  width: 50px;
+}
+
+.reviewProfiles img:first-child {
+  margin-right: -20px;
+}
+
+.reviewProfiles img:last-child {
+  margin-left: -20px;
+}
+
+
+.banner-img img {
+  width: 480px;
+  min-width: 480px;
+}
+
+.banner-img {
+  margin-left: -200px;
+}
+
+.flavorInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flavor-description {
+  margin-top: 30px;
+}
+
+.flavor-shape .flavor-device {
+  height: 110px;
+  margin: -65px auto 30px;
+  display: flex;
+  transform: rotate(20deg);
+  filter: drop-shadow(0px 5px 15px rgb(0 0 0 / 80%));
+}
+
+.flavor-shape {
+  padding: 30px;
+  background: var(--clr-gray);
+  border-radius: 150px 150px 0 0;
+}
+
+.flavor-shape h6 {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.flavor-shape p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.flavor-description .TextBtn,
+.flavor-shape .TextBtn {
+  margin-top: 10px;
+}
+
+.RootedSymbol {
+  position: absolute;
+  width: 150px;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(calc(-50% - 100px));
+}
+
+.productTitle {
+  display: flex;
+  gap: 50px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.productTitle p {
+  margin: 0;
+}
+
+.flavor-card {
+  padding: 35px 20px 25px;
+  background: var(--clr-primary);
+  border-radius: 20px;
+}
+
+.flavor-card .flavor-img {
+  height: 180px;
+  margin: 0 auto 25px;
+  display: flex;
+  filter: drop-shadow(0px 5px 15px rgb(0 0 0 / 20%));
+}
+
+.flavor-details {
+  display: flex;
+  gap: 10px;
+}
+
+.flavor-info h6 {
+  margin: 0 0 10px;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, rgba(44, 150, 205, 1) 0%, rgb(4 102 153) 100%);
+  border-radius: 30px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(8, 127, 188, 0.20);
+}
+
+.blue-razz .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(123, 72, 141, 1) 0%, rgba(183, 30, 97, 1) 100%);
+  box-shadow: 0 5px 15px rgba(183, 30, 96, 0.20);
+}
+
+.gods-gift .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(238, 138, 82, 1) 0%, rgb(187 105 1) 100%);
+  box-shadow: 0 5px 15px rgba(247, 151, 29, 0.20);
+}
+
+.gorilla-runtz .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(119, 151, 107, 1) 0%, rgb(73 151 47) 100%);
+  box-shadow: 0 5px 15px rgba(100, 187, 70, 0.20);
+}
+
+.lemon-drop .flavor-info h6 {
+  background: linear-gradient(90deg, rgb(101 135 71) 0%, rgb(173 96 152) 100%);
+  box-shadow: 0 5px 15px rgba(205, 136, 186, 0.20);
+}
+
+.magic-melon .flavor-info h6 {
+  background: linear-gradient(90deg, rgb(165 131 41) 0%, rgba(102, 187, 70, 1) 100%);
+  box-shadow: 0 5px 15px rgba(102, 187, 70, 0.20);
+}
+
+.mango-nana .flavor-info h6 {
+  background: linear-gradient(90deg, rgb(153 113 22) 0%, rgba(54, 115, 30, 1) 100%);
+  box-shadow: 0 5px 15px rgba(54, 115, 30, 0.20);
+}
+
+.passion-fruitPunch .flavor-info h6 {
+  background: linear-gradient(90deg, rgb(155 56 128) 0%, rgba(143, 57, 148, 1) 100%);
+  box-shadow: 0 5px 15px rgba(143, 57, 148, 0.20);
+}
+
+.purple-diesel .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(128, 77, 157, 1) 0%, rgba(69, 46, 141, 1) 100%);
+  box-shadow: 0 5px 15px rgba(69, 46, 141, 0.20);
+}
+
+.rainbow-sherbet .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(94, 156, 138, 1) 0%, rgba(113, 82, 161, 1) 100%);
+  box-shadow: 0 5px 15px rgba(113, 82, 161, 0.20);
+}
+
+.rocket-pop .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(198, 92, 108, 1) 0%, rgba(237, 36, 37, 1) 100%);
+  box-shadow: 0 5px 15px rgba(237, 36, 37, 0.20);
+}
+
+.sky-walkerOG .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(15, 105, 98, 1) 0%, rgba(15, 69, 113, 1) 100%);
+  box-shadow: 0 5px 15px rgba(15, 69, 113, 0.20);
+}
+
+.strawberry-cough .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(224, 64, 131, 1) 0%, rgba(219, 31, 38, 1) 100%);
+  box-shadow: 0 5px 15px rgba(219, 31, 38, 0.20);
+}
+
+.strawberry-lemonade .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(248, 175, 59, 1) 0%, rgb(155 133 4) 100%);
+  box-shadow: 0 5px 15px rgba(253, 220, 21, 0.20);
+}
+
+.sugar-plum .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(179, 96, 169, 1) 0%, rgba(161, 30, 89, 1) 100%);
+  box-shadow: 0 5px 15px rgba(161, 30, 89, 0.20);
+}
+
+.tropical-burst .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(113, 181, 89, 1) 0%, rgba(71, 128, 194, 1) 100%);
+  box-shadow: 0 5px 15px rgba(71, 128, 194, 0.20);
+}
+
+.twisted-cherries .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(154, 104, 83, 1) 0%, rgba(60, 168, 73, 1) 100%);
+  box-shadow: 0 5px 15px rgba(60, 168, 73, 0.20);
+}
+
+.watermelon-slush .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(92, 121, 72, 1) 0%, rgba(16, 172, 75, 1) 100%);
+  box-shadow: 0 5px 15px rgba(16, 172, 75, 0.20);
+}
+
+.zhirley-temple .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(116, 122, 172, 1) 0%, rgba(5, 149, 183, 1) 100%);
+  box-shadow: 0 5px 15px rgba(5, 149, 183, 0.20);
+}
+
+.zour-patch .flavor-info h6 {
+  background: linear-gradient(90deg, rgba(118, 186, 158, 1) 0%, rgba(122, 83, 161, 1) 100%);
+  box-shadow: 0 5px 15px rgba(122, 83, 161, 0.20);
+}
+
+.flavor-info {
+  width: 100%;
+  text-align: center;
+}
+
+.flavor-info p {
+  font-size: 10px;
+  margin: 0 0 5px;
+  line-height: normal;
+}
+
+.flavor-info p:last-child {
+  margin: 0;
+}
+
+.product-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.swiper-arrows {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.swiper-arrow-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--clr-gray);
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-arrows i {
+  font-size: 18px;
+}
+
+.swiper-arrow-icon:hover {
+  opacity: 0.7;
+}
+
+.aboutImg-box {
+  line-height: 0;
+}
+
+.aboutImg-box img {
+  width: 100%;
+}
+
+/* Product page */
+
+.product-card {
+  padding: 30px 30px 20px;
+  background: var(--clr-primary);
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.product-card .product-img {
+  height: 170px;
+  margin: 0 0 20px;
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.30));
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.03);
+}
+
+.product-card h6 {
+  margin: 0;
+  font-size: 16px;
+  padding-top: 15px;
+  border-top: 1px solid #412e53;
+  width: 100%;
+  text-align: center;
+}
+
+/* verification page */
+
+.verificationBanner {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.verification-innerContainer {
+  max-width: 1366px;
+  margin: auto;
+  position: relative;
+}
+
+.verification-bannerImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.verification-bannerImg img {
+  width: 790px;
+}
+
+.verification-bannerImg:after {
+  content: '';
+  position: absolute;
+  bottom: 215px;
+  right: 0;
+  width: 450px;
+  height: 100px;
+  background: linear-gradient(180deg, rgb(19 1 34 / 0%) 0%, rgb(20 1 34) 100%);
+}
+
+.verification-InputBox {
+  display: flex;
+  padding: 8px 8px 8px 20px;
+  background: var(--clr-primary);
+  border-radius: 50px;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.verification-InputBox input {
+  background: transparent !important;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  color: var(--clr-white);
+}

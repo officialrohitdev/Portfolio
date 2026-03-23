@@ -1,0 +1,59 @@
+:root {
+   --sb-white: #fff;
+   --sb-redLight: #EB1D2C;
+   --sb-red: #C6232D;
+   --sb-dark: #111;
+   --sb-blue: #2362CF;
+   --sb-purple: #B34DFF;
+   --sb-pink: #E01A53;
+   --sb-green: #32AA14;
+   --sb-yallow: #F7B511;
+   --sb-darkRed: #AA0000;
+   --sb-darkestRed: #3b0000;
+   --sb-red-BtnGradient: linear-gradient(180deg, var(--sb-redLight) 0%, var(--sb-darkestRed) 100%);
+   --sb-blue-BtnGradient: linear-gradient(180deg, rgb(102, 163, 232) 0%, rgb(31, 88, 203) 100%);
+   --input-bg: #fff;
+   --input-border: #ddd;
+}
+
+.sb-blueGradient {
+   background: linear-gradient(180deg, rgb(102, 163, 232) 0%, rgb(31, 88, 203) 100%);
+}
+
+/* text  */
+
+.sb-text-red {
+   color: var(--sb-red);
+}
+
+.sb-text-dark {
+   color: var(--sb-dark);
+}
+
+.sb-text-blue {
+   color: var(--sb-blue);
+}
+
+.sb-text-purple {
+   color: var(--sb-purple);
+}
+
+.sb-text-pink {
+   color: var(--sb-pink);
+}
+
+.sb-text-green {
+   color: var(--sb-green);
+}
+
+.sb-text-yallow {
+   color: var(--sb-yallow);
+}
+
+.sb-text-darkRed {
+   color: var(--sb-darkRed);
+}
+
+.sb-text-darkestRed {
+   color: var(--sb-darkestRed);
+}

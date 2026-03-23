@@ -1,0 +1,300 @@
+/* Home Page */
+
+.topBanner-wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-details {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-details h6 {
+  letter-spacing: 3px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.banner-details h1 {
+  font-weight: bold;
+  font-size: 54px;
+  margin: 0 0 20px;
+  text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+  color: var(--clr-primary);
+}
+
+.banner-details p {
+  margin: 0 0 30px;
+}
+
+.about-uni {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.about-uni .character-img {
+  width: 80%;
+  max-width: 350px;
+}
+
+.ProductContainer .container>.row {
+  margin-bottom: 30px;
+}
+
+.ProductContainer .container>.row:last-child {
+  margin: 0;
+}
+
+.character-imgbox {
+  text-align: center;
+}
+
+.character-imgbox img {
+  width: 80%;
+}
+
+.InnerVerfy:after {
+  content: "";
+  position: absolute;
+  left: -380px;
+  width: 500px;
+  height: 100%;
+  background: var(--clr-darklight);
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.InnerVerfy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 50px 30px;
+  border-radius: 15px;
+  background-color: var(--clr-darklight);
+
+  z-index: 1;
+}
+
+.video_box {
+  position: relative;
+  z-index: 99;
+}
+
+.video_box video {
+  border-radius: 15px;
+  border: 2px solid var(--clr-primary);
+}
+
+.videobg {
+  background: url(../images/bluelinebg.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.videobg:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,
+      rgb(5 7 9) 0%,
+      rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  top: 0;
+}
+
+/* Home Page end */
+
+/* Product Page */
+
+.ProductDetail {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ProductDetail:hover .ProductDetailOverlay {
+  opacity: 0.8;
+}
+
+.ProductDetailOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-darklight);
+  top: 0;
+  z-index: 200;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.ProductContent {
+  opacity: 0;
+  position: absolute;
+  z-index: 201;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.ProductContent h3 {
+  font-size: 20px;
+}
+
+.ProductContent h4 {
+  font-size: 16px;
+  color: var(--clr-primary);
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.ProductContent p {
+  font-size: 13px;
+}
+
+.ProductContent .slogan-img {
+  max-width: 250px;
+}
+
+.ProductDetail:hover .ProductContent {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.ProductImg img {
+  max-width: max-content;
+  filter: drop-shadow(2px 4px 6px black);
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  display: block;
+  padding: 30px;
+  height: 320px;
+}
+
+.ProductImg.h450 img {
+  
+  height: 450px;
+}
+
+.ProductMasonry .card {
+  margin-bottom: 24px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Device Page */
+
+.deviceImgbox {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #222;
+  padding: 15px;
+}
+
+.DeviceDetails {
+  position: relative;
+  height: 100%;
+}
+
+img.ProImg {
+  position: absolute;
+  width: 35%;
+  bottom: 0;
+  right: 50px;
+  z-index: 9;
+}
+
+.device-para p {
+  max-width: 400px;
+}
+
+/* Device Page end */
+
+/* Modal*/
+
+.welcome-modal .modal-dialog {
+  max-width: 700px;
+}
+
+.welcome-modal .modal-content {
+  border: none;
+  box-shadow: rgb(255 255 255 / 10%) 0px 10px 30px -10px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--clr-dark);
+}
+
+.welcome-modal .modal-body {
+  padding: 0px;
+  background-image: url(../img/bg-smoke.png);
+  background-color: var(--clr-dark);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: repeat;
+}
+
+.img-modal {
+  background: var(--clr-darklight);
+}
+
+.img-modal img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  padding: 30px;
+  filter: drop-shadow(2px 2px 5px #000);
+}
+
+.welcome-modal .container {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.text-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-modal h2 {
+  font-size: 28px;
+}
+
+.text-modal h6 {
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--clr-textlight);
+}
+
+.text-modal .btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.auth-img img {
+  width: 150px;
+}
+
+.error-img,
+.success-img {
+  margin: 0 0 25px;
+  width: 120px;
+}
+
+/* Modal end */
+

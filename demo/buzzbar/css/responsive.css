@@ -1,0 +1,299 @@
+@media (max-width: 1180px) {
+   .playBtn {
+      margin: -100px 0 -50px auto;
+   }
+}
+
+@media (max-width: 1024px) {
+   .playBtn {
+      width: 150px;
+      min-width: 150px;
+      height: 150px;
+      padding: 15px;
+      margin: -100px 0 -40px auto;
+   }
+
+   .playBtn:after,
+   .playBtn:before {
+      width: 50px;
+      height: 50px;
+      bottom: 1px;
+   }
+
+   .playBtn:after {
+      left: -25px;
+   }
+
+   .playBtn:before {
+      right: -25px;
+   }
+}
+
+
+@media (max-width: 991.98px) {
+   .TopBanner-container {
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: center;
+      padding: 50px 0;
+   }
+
+   .brandInfo {
+      margin: 0;
+      text-align: center;
+   }
+
+   .verifyInput {
+      margin: auto;
+   }
+
+   .brandFeature {
+      padding: 0 0 30px;
+      flex-direction: row-reverse;
+      gap: 50px;
+   }
+
+   .brandFeature:after {
+      display: none;
+   }
+
+   .bestOffer .pback-bg {
+      top: -30px;
+      left: 35px;
+   }
+
+   .brandFeature .brandImg {
+      transform: rotate(0deg);
+   }
+
+   .secDescription .effectLogo {
+      margin: 20px 0;
+      width: 250px;
+   }
+
+   .TP-imgBox {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto 50px;
+   }
+
+   .TP-imgBox span {
+      width: 250px;
+      height: 250px;
+   }
+
+   .TP-Info {
+      padding: 0;
+      text-align: center;
+   }
+
+   .TP-Info .subTag,
+   .followUs-details .subTag {
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 0 10px;
+   }
+
+   .TP-Info .TP-img2 {
+      margin: 30px auto 0;
+   }
+
+   .custom-space {
+      padding: 40px 0;
+   }
+
+   .followUs-details {
+      text-align: center;
+   }
+
+   .video-back {
+      width: 70%;
+   }
+
+   footer {
+      padding: 60px 0 30px;
+   }
+
+   .socialVideo {
+      padding-top: 0;
+   }
+}
+
+@media (max-width: 767.98px) {
+
+   .brandLogo {
+      width: 200px;
+   }
+
+   .TopBanner-container {
+      gap: 30px;
+   }
+
+   .brandFeature {
+      padding: 0;
+   }
+
+   .wave-bg {
+      bottom: 0;
+   }
+
+   .brandFeature .brandImg {
+      display: none;
+   }
+
+   .brandInfo h1 {
+      font-size: 40px;
+      margin: 0 0 30px;
+   }
+
+   .featureDescription {
+      text-align: center;
+   }
+
+   .featureDescription .rate-icons {
+      justify-content: center;
+   }
+
+   .custom-space {
+      padding: 30px 0;
+   }
+
+   .bestOffer .pback-bg {
+      top: -20px;
+   }
+
+   .secDescription .subTag {
+      font-size: 14px;
+      line-height: normal;
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 0 10px;
+   }
+
+   .secDescription .effectLogo {
+      margin: 10px 0 15px;
+      width: 160px;
+   }
+
+   .secDescription .titleHead {
+      font-size: 28px;
+      line-height: normal;
+   }
+
+   .secDescription {
+      text-align: center;
+   }
+
+   .secDescription .titleHead img {
+      width: 95px;
+   }
+
+   .productCard-container {
+      gap: 20px;
+   }
+
+   .productCard {
+      width: 100%;
+   }
+
+   .productCard:nth-child(2),
+   .productCard:nth-child(4) {
+      top: 0;
+   }
+
+   .TP-imgBox {
+      width: 90%;
+      margin: 20px auto 50px;
+   }
+
+   .TP-imgBox span {
+      width: 200px;
+      height: 200px;
+      top: -15px;
+      right: -15px;
+   }
+
+   .TP-Info .TP-img2 {
+      width: 90%;
+   }
+
+   .TP-Info .TP-img2 span {
+      width: 200px;
+      height: 200px;
+      bottom: -15px;
+      left: -15px;
+   }
+
+   .video-back {
+      width: 100%;
+   }
+
+   .playBtn {
+      margin: -40px auto -40px;
+   }
+
+   .fooNavCol {
+      width: 100%;
+      border-bottom: 1px solid #212529;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+   }
+
+   footer .row .col-12:last-child .fooNavCol {
+      padding: 0;
+      margin: 0;
+      border: 0;
+   }
+
+   .verifyInfo {
+      padding: 30px 20px;
+   }
+
+   .verifyInfo h5 {
+      margin: 0 0 20px;
+   }
+
+   .verifyInfo .ThemeBtn {
+      position: unset;
+      transform: translateY(0%);
+      min-height: 50px;
+   }
+
+   .verifyInfo .verifyInput .ThemeBtn {
+      margin-top: 15px;
+   }
+
+   .verifyInfo .verifyInput input {
+      padding-right: 25px;
+      text-align: center;
+   }
+}
+
+@media (max-width: 375px) {
+   .ThemeBtn {
+      padding: 10px 25px;
+   }
+
+   .verifyInput input {
+      padding-right: 160px;
+   }
+
+   .brandInfo h1 {
+      font-size: 32px;
+   }
+}
+
+@media (max-width: 360px) {
+
+   .verifyInput input {
+      padding-right: 25px;
+      text-align: center;
+   }
+
+   .verifyInput .ThemeBtn {
+      position: unset;
+      transform: translateY(0%);
+      margin-top: 15px;
+   }
+
+}

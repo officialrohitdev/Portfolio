@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Uni Extracts</title>
+   <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/bootstrap.css" />
+   <link rel="stylesheet" href="css/master.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+   <!-- Header -->
+   <header>
+      <nav class="navbar">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">
+               <img src="img/img1.gif" alt="" />
+            </a>
+            <div class="topNav">
+               <a href="./index.html#Authentic" class="ThemeBtn">Authentic</a>
+
+               <div class="ToggleBtn-menu">
+                  <button class="ToggleBtn" id="openNavBtn" title="Open" onclick="openNav()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <nav class="sidenav" id="sidenav">
+      <div class="sidenav-overlay" onclick="closeNav();"></div>
+      <div class="sidenav-body">
+         <button class="sidenav__btn" aria-label="Close navigation" onclick="closeNav();">
+            <i class="material-icons">close</i>
+         </button>
+         <ul class="sidenav__list scrollbar-gradient">
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="index.html">Home</a>
+            </li>
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="device.html">Device</a>
+            </li>
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="products.html">Products</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <!-- Header end -->
+
+   <section class="PageBanner">
+      <img src="./img/device-left.png" alt="">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="secHead headCenter PageTitle">
+                  <h2 data-aos="flip-left" data-aos-duration="1500">Product</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+      <canvas id="canvas"></canvas>
+   </section>
+
+   <div id="particles-js"></div>
+
+   <main class="overflow-hidden">
+      <section class="custom-space ProductMasonry">
+         <div class="container">
+            <div class="row" data-masonry='{"percentPosition": true }'>
+               <div class="col-4">
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h450">
+                              <img src="./img/products/lemon-cherry-sorbet.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Lemon Cherry Sorbet</h3>
+                              <h4>Sativa</h4>
+                              <p>This strain is a tantalizing fusion of zesty lemon and sweet cherry,
+                                 reminiscent of a delightful frozen treat, offering a refreshing and fruity
+                                 experience with each inhale. It captures the perfect balance between tangy
+                                 and sweet, delivering a cool and invigorating sensation that can satisfy
+                                 your taste buds when you crave a burst of fruity goodness.</p>
+                                 <img src="./img/uni-effects/apple-slushie.png" class="slogan-img" alt="">
+                           </div>
+
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h300">
+                              <img src="./img/products/mango-kush.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Mango Kush</h3>
+                              <h4>Sativa</h4>
+                              <p>A luscious and aromatic blend that encapsulates the sweet, tropical allure of
+                                 ripe mangoes, coupled with herbal and earthy undertones. It offers a
+                                 uniquely delightful experience, with the fruity richness of mango that
+                                 provides a satisfying and exotic flavor profile for enthusiasts seeking a
+                                 private island escape.</p>
+                              <img src="./img/uni-effects/grape-jelly.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h450">
+                              <img src="./img/products/maui-wowie.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Maui Wowie</h3>
+                              <h4>Hybrid</h4>
+                              <p>Brings a tropical medley of sweet pineapple and ripe mango, accented by
+                                 subtle hints of earthy goodness, taking you on a tasty, tropical adventure.
+                                 This strain evokes the feeling of a relaxing day on the beach, delivering a
+                                 harmonious balance of fruity and herbal notes that can transport you to a
+                                 Hawaiian paradise with each puff.</p>
+                                 <img src="./img/uni-effects/papaya-cream.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-4">
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h300">
+                              <img src="./img/products/orange-zoda.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Orange Zoda</h3>
+                              <h4>Hybrid</h4>
+                              <p>A fizzy and nostalgic delight, reminiscent of your favorite childhood drink,
+                                 with a burst of zesty orange citrus and effervescent soda notes that tickle
+                                 your taste buds. This flavor is refreshing and vibrant, capturing the
+                                 essence of an orange soda in a delightful and satisfying way with each
+                                 inhale and exhale.
+
+                              </p>
+                              <img src="./img/uni-effects/biscotti.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h300">
+                              <img src="./img/products/pink-drink.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Pink Drink</h3>
+                              <h4>Hybrid</h4>
+                              <p>A delectable and refreshing blend that mirrors the iconic Starbucks beverage
+                                 with its sweet and tangy combination of juicy strawberries, tropical acai
+                                 and a creamy coconut base. This flavor captures the essence of a summer
+                                 indulgence, delivering a balanced fruity and creaminess with each inhale.
+                              </p>
+                              <img src="./img/uni-effects/orange-creamsicle.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h350">
+                              <img src="./img/products/rainbow-sherbet.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Rainbow Sherbet</h3>
+                              <h4>Indica</h4>
+                              <p>This flavor combines the tangy sweetness of mixed fruit sherbet with a
+                                 refreshing, cool twist. It offers a harmonious blend of citrusy and fruity
+                                 notes with a dash of icy menthol.</p>
+                                 <img src="./img/uni-effects/animal-mintz.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h350">
+                              <img src="./img/products/zkittles-strawnana.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Zkittles Strawnana</h3>
+                              <h4>Indica</h4>
+                              <p>Captivates your senses with the luscious, sweet notes of ripe, juicy strawberries,
+                                 delivering a delightful burst of fruity freshness. This enticing blend offers a
+                                 harmonious balance of natural sweetness and a subtle tangy twist, making it a perfect
+                                 choice for those seeking a refreshing and satisfying experience.</p>
+                                 <img src="./img/uni-effects/trop-cherry.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-4">
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h450">
+                              <img src="./img/products/saur-diesel.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Saur Diesel</h3>
+                              <h4>Sativa</h4>
+                              <p>Creates an exhilarating experience with its pungent and earthy aroma,
+                                 followed by a zesty citrus undertone that lingers on the palate. This unique
+                                 flavor provides a bold and invigorating experience for those who appreciate
+                                 its distinct herbal and sour notes. </p>
+                                 <img src="./img/uni-effects/peach-rings.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h300">
+                              <img src="./img/products/strawberry-banana.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Strawberry Banana</h3>
+                              <h4>Indica</h4>
+                              <p>Combines the succulent sweetness of ripe strawberries with the creamy
+                                 richness of perfectly ripened bananas, creating a mouthwatering fusion of
+                                 fruitiness that dances on your taste buds. Offering a well-balanced and
+                                 satisfying flavor, delivering a tantalizing medley of fruity notes with each
+                                 inhale and exhale.</p>
+                                 <img src="./img/uni-effects/blueberry-slushie.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1500">
+                     <div class="card-body p-0">
+                        <div class="ProductDetail">
+                           <div class="ProductImg h450">
+                              <img src="./img/products/uni-colada.png" alt="">
+                           </div>
+                           <div class="ProductContent">
+                              <h3>Uni Colada</h3>
+                              <h4>Sativa</h4>
+                              <p>Transports you to a tropical paradise with a blend of creamy coconut and tangy
+                                 pineapple. This tropical concoction creates a smooth and sweet combination of flavors
+                                 that'll have you dreaming of sandy beaches with every puff.
+
+                              </p>
+                              <img src="./img/uni-effects/banana-og.png" class="slogan-img" alt="">
+                           </div>
+                           <div class="ProductDetailOverlay"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="about-footer">
+                  <a href="index.html" class="brandLogo" data-aos="zoom-in" data-aos-duration="1500">
+                     <img src="./img/img1.gif" alt=""/>
+                  </a>
+
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                     soluta voluptates in aliquam est iure laborum quaerat!
+                  </p>
+               </div>
+            </div>
+
+            <div class="col-lg-2">
+               <div class="footer-col">
+                  <h6>Our Company</h6>
+                  <ul>
+                     <li><a href="device.html">Device</a></li>
+                     <li><a href="products.html">Products</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-2">
+               <div class="footer-col">
+                  <h6>Our Policies</h6>
+                  <ul>
+                     <li><a href="javascript:void(0)">Terms of Service</a></li>
+                     <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-4">
+               <div class="footer-col">
+                  <h6>Join the Uni Club</h6>
+                  <div class="verify-InputBox">
+                     <input type="text" name="" id="" class="form-control" placeholder="Enter your email" />
+                     <button type="button" class="ThemeBtn">Enroll Now</button>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-12">
+               <div class="copyright">
+                  <p>© 2023 Uni Extracts</p>
+                  <ul class="footer-social">
+                     <li>
+                        <a href="javascript:void(0)">
+                           <img src="img/insta.svg" alt="" />
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <button id="scrollTotop">
+      <div class="ScrollArrow">
+         <i class="material-icons">expand_less</i>
+      </div>
+   </button>
+
+   <script src="js/jquerymin.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/header.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/particles,js"></script>
+   <script src="js/particles_script.js"></script>
+   <script src="js/smoke.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" async>
+   </script>
+</body>
+
+</html>

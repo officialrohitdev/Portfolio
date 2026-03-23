@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plume</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link href="./css/bootstrap.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <header id="myHeader" class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="header-nav">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo.png" alt="" />
+            </a>
+
+            <div class="navigation-container">
+              <div class="navigation">
+                <button
+                  class="navbar-toggler ToggleButton"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#sideaNav"
+                  aria-controls="sideaNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div
+                    class="nav-overlay"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#sideaNav"
+                  ></div>
+                </button>
+
+                <div class="collapse navbar-collapse" id="sideaNav">
+                  <a href="index.html" class="sidenav-logo d-lg-none">
+                    <img src="./img/logo.png" alt="" />
+                  </a>
+
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./product.html"
+                        >Products</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="./verification.html"
+                        >Verification</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="overflow-hidden">
+      <section class="productUs">
+        <div class="container-fluid p-0">
+          <div class="product-top-section">
+            <div class="swiper mySwiperTop">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="container">
+                    <div
+                      class="row gx-5 justify-content-center align-items-center align-items-lg-stretch"
+                    >
+                      <div
+                        class="col-lg-4 col-md-6 order-lg-0 order-0 order-md-1"
+                      >
+                        <div class="product-top-left">
+                          <div class="banner-content">
+                            <div class="section-title titleLeft">
+                              <div class="circle-tagline">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <h6>Our Product</h6>
+                              </div>
+                              <h2>Turks & Caicos</h2>
+                              <h5>FireBerry</h5>
+                              <h4>$39.00</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Labore consequuntur
+                                incusddmnatus corporis earum ad dolorem Lorem
+                                ipsum dolor sit amet
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-8">
+                        <div class="product-center-content">
+                          <div class="product-center-img">
+                            <img src="./img/product-img.png" alt="" />
+                          </div>
+                          <div class="product-text-center left-top">
+                            <div class="product-center-box">
+                              <img src="./img/strawberry-icon.png" alt="" />
+                              <p>
+                                Peach rings <br />
+                                white peach
+                              </p>
+                              <span class="material-icons">lock</span>
+                            </div>
+                          </div>
+                          <div class="product-text-center right-top">
+                            <div class="product-center-box">
+                              <img src="./img/flavor-img.png" alt="" />
+                              <p>
+                                Blackwater & <br />
+                                lushberry
+                              </p>
+                              <span class="material-icons" style="color: red"
+                                >favorite</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 order-md-1">
+                        <div class="accordian-right">
+                          <div
+                            class="custom-accordion"
+                            id="customAccordionGroup"
+                          >
+                            <div class="accordion-item">
+                              <div
+                                class="accordion-header"
+                                id="customHeadingOne"
+                              >
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#customCollapseOne"
+                                  aria-expanded="false"
+                                  aria-controls="customCollapseOne"
+                                >
+                                  Description
+                                </button>
+                              </div>
+                              <div
+                                id="customCollapseOne"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="customHeadingOne"
+                                data-bs-parent="#customAccordionGroup"
+                              >
+                                <div class="accordion-body">
+                                  This is the first item content. Lorem ipsum
+                                  dolor sit amet consectetur adipisicing elit.
+                                  Deserunt, iste.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div
+                                class="accordion-header"
+                                id="customHeadingTwo"
+                              >
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#customCollapseTwo"
+                                  aria-expanded="false"
+                                  aria-controls="customCollapseTwo"
+                                >
+                                  Nutrition
+                                </button>
+                              </div>
+                              <div
+                                id="customCollapseTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="customHeadingTwo"
+                                data-bs-parent="#customAccordionGroup"
+                              >
+                                <div class="accordion-body">
+                                  This is the second item content. Lorem ipsum
+                                  dolor sit amet consectetur adipisicing elit.
+                                  Eius, neque?
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                                <button
+                                  class="accordion-button"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapse3"
+                                  aria-expanded="true"
+                                  aria-controls="collapse3"
+                                >
+                                  Ingredients
+                                </button>
+                              </div>
+                              <div
+                                id="collapse3"
+                                class="accordion-collapse collapse show"
+                                data-bs-parent="#customAccordionGroup"
+                              >
+                                <div class="accordion-body">
+                                  Fresh, tangy and zesty lime with refreshing
+                                  minty notes. Lorem ipsum dolor sit amet
+                                  consectetur adipisicing elit.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="container">
+                    <div
+                      class="row gx-5 justify-content-center align-items-center align-items-lg-stretch"
+                    >
+                      <div
+                        class="col-lg-4 col-md-6 order-lg-0 order-0 order-md-1"
+                      >
+                        <div class="product-top-left">
+                          <div class="banner-content">
+                            <div class="section-title titleLeft">
+                              <div class="circle-tagline">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <h6>Our Product</h6>
+                              </div>
+                              <h2>House of Z</h2>
+                              <h5>FireBerry</h5>
+                              <h4>$39.00</h4>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Labore consequuntur
+                                incusddmnatus corporis earum ad dolorem Lorem
+                                ipsum dolor sit, amet consectetur
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-8">
+                        <div class="product-center-content">
+                          <div class="product-center-img">
+                            <img src="./img/product-img.png" alt="" />
+                          </div>
+                          <div class="product-text-center left-top">
+                            <div class="product-center-box">
+                              <img src="./img/strawberry-icon.png" alt="" />
+                              <p>
+                                Peach rings <br />
+                                white peach
+                              </p>
+                              <span class="material-icons">lock</span>
+                            </div>
+                          </div>
+                          <div class="product-text-center right-top">
+                            <div class="product-center-box">
+                              <img src="./img/flavor-img.png" alt="" />
+                              <p>
+                                Blackwater & <br />
+                                lushberry
+                              </p>
+                              <span class="material-icons" style="color: red"
+                                >favorite</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 order-md-1">
+                        <div class="accordian-right">
+                          <div
+                            class="accordion custom-accordion"
+                            id="accordionExample"
+                          >
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingOne">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOne"
+                                  aria-expanded="false"
+                                  aria-controls="collapseOne"
+                                >
+                                  Description
+                                </button>
+                              </div>
+                              <div
+                                id="collapseOne"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit. Voluptatum, quis tempore!
+                                  Dolorem, repudiandae nobis
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingTwo">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseTwo"
+                                  aria-expanded="false"
+                                  aria-controls="collapseTwo"
+                                >
+                                  Nutrition
+                                </button>
+                              </div>
+                              <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit. At optio, tenetur
+                                  exercitationem consequatur iste,
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingThree">
+                                <button
+                                  class="accordion-button"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseThree"
+                                  aria-expanded="true"
+                                  aria-controls="collapseThree"
+                                >
+                                  Ingredients
+                                </button>
+                              </div>
+                              <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse show"
+                                aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet consectetur
+                                  adipisicing elit. Impedit alias unde atque
+                                  laborum odit beatae aliquid
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-top-right">
+                <div class="sliderArrows">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-circle"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-10">
+            <div class="footer-content">
+              <div class="footer-brandInfo">
+                <img
+                  src="./img/logo.png"
+                  alt="footer logo"
+                  class="footerLogo"
+                />
+                <img src="./img/xx-short-icon.png" alt="" class="footerStar" />
+              </div>
+
+              <p class="footer-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been standard dummy text ever since
+                the 1500s.
+              </p>
+
+              <div class="newsletter">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="form-control"
+                />
+                <button type="submit" class="TextBtn">
+                  Subscribe
+                  <i class="material-icons">east</i>
+                </button>
+              </div>
+
+              <ul class="footer-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./verification.html">Verification</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <ul class="footer-social">
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./img/facebook-icon.svg" alt="instagram" />
+            </a>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./img/twitter-icon.svg" alt="instagram" />
+            </a>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./img/youtube-icon.svg" alt="instagram" />
+            </a>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./img/insta-icon.svg" alt="instagram" />
+            </a>
+          </li>
+        </ul>
+        <p class="footer-copyright">
+          © Copyright 2025 Plume. All Rights Reserved
+        </p>
+      </div>
+
+      <div class="fooLineleft">
+        <img src="./img/xx-icon.png" alt="footer background" />
+      </div>
+
+      <div class="fooLineRight">
+        <img src="./img/xx-icon.png" alt="footer background" />
+      </div>
+    </footer>
+
+    <button id="scrollTotop">
+      <div class="ScrollArrow">
+        <i class="material-icons">expand_less</i>
+      </div>
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade welcome-modal"
+      id="welcome-popup"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-lg-5 d-none d-lg-block img-modal">
+                  <img src="./img/product-img.png" alt="" class="img-fluid" />
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="text-modal">
+                    <div class="auth-img">
+                      <img src="./img/logo.png" alt="" />
+                    </div>
+                    <div class="section-title titleCenter">
+                      <div class="circle-tagline">
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <h6>Verify your age</h6>
+                      </div>
+                      <h2>Are You 21 Years Old?</h2>
+                    </div>
+                    <div class="btn-row">
+                      <button class="ThemeBtn" id="btn-alpha">Yes</button>
+                      <button class="ThemeBtn" id="btn-beta">No</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/headroom.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

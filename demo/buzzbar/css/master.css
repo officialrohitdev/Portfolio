@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   line-height: 1.5;
+}
+
+body {
+   color: var(--clr-dark);
+   overflow-x: hidden;
+}
+
+p {
+   line-height: 1.7;
+   font-size: 14px;
+}
+
+a {
+   transition: 0.3s ease-in-out;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+:root {
+   --clr-white: #fff;
+   --clr-dark: #101418;
+   --clr-primary: #EF4F52;
+   --clr-secondary: #33B1D9;
+   --clr-primary-gradient: linear-gradient(180deg, #EF4F52 20%, #7c0a0b 90%);
+   --clr-secondary-gradient: linear-gradient(180deg, #33B1D9 20%, #00352F 90%);
+}
+
+.form-control {
+   transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+   box-shadow: none;
+   outline: none;
+   border-color: var(--clr-primary);
+}
+
+.ThemeBtn {
+   border: 0;
+   background: transparent;
+   padding: 12px 30px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 50px;
+   border-radius: 50px;
+   background: var(--clr-secondary-gradient);
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #fff;
+   transition: all 0.3s ease-in-out;
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   animation-iteration-count: 1;
+}
+
+.ThemeBtn:hover {
+   animation-name: rubberBand;
+   color: #fff;
+}
+
+@keyframes rubberBand {
+   from {
+      transform: scale3d(1, 1, 1);
+   }
+
+   30% {
+      transform: scale3d(1, 0.9, 1);
+   }
+
+   40% {
+      transform: scale3d(0.9, 1, 1);
+   }
+
+   50% {
+      transform: scale3d(1, 0.9, 1);
+   }
+
+   65% {
+      transform: scale3d(.9, 1, 1);
+   }
+
+   75% {
+      transform: scale3d(1, .9, 1);
+   }
+
+   to {
+      transform: scale3d(1, 1, 1);
+   }
+}
+
+.custom-space {
+   padding: 70px 0;
+}
+
+.pb-130 {
+   padding-bottom: 130px;
+}
+
+.centerHead {
+   display: flex;
+   justify-content: center;
+}
+
+.modal {
+   backdrop-filter: blur(5px);
+}
+
+.modal-dialog {
+   padding: 0 10px;
+}
+
+.modal-content {
+   border: 0;
+   border-radius: 15px;
+   overflow: hidden;
+}
+
+.modal-content .btn-close {
+   width: 30px;
+   height: 30px;
+   opacity: 1 !important;
+   border-radius: 100%;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   background: var(--clr-primary-gradient);
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+}
+
+.modal-content .btn-close i {
+   color: var(--clr-white);
+   font-size: 18px;
+}
+
+.Img-HoverEffect {
+   position: relative;
+}
+
+.Img-HoverEffect:before {
+   position: absolute;
+   width: 90%;
+   content: "";
+   left: 50%;
+   bottom: 50%;
+   height: 70%;
+   background-color: rgba(255, 255, 255, .3);
+   zoom: 1;
+   background-color: transparent\9;
+   transform: translate(-50%, 50%) scaleY(0);
+   transition: all 0.4s cubic-bezier(.25, .46, .45, .94);
+}
+
+.Img-HoverEffect:after {
+   position: absolute;
+   width: 70%;
+   content: "";
+   left: 50%;
+   bottom: 50%;
+   height: 90%;
+   background-color: rgba(255, 255, 255, .3);
+   zoom: 1;
+   background-color: transparent\9;
+   transform: translate(-50%, 50%) scaleX(0);
+   transition: all 0.4s cubic-bezier(.25, .46, .45, .94);
+}
+
+.Img-HoverEffect:hover:before {
+   transform: translate(-50%, 50%) scaleY(1);
+}
+
+.Img-HoverEffect:hover:after {
+   transform: translate(-50%, 50%) scaleX(1);
+}
+
+.Img-HoverEffect-2:before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   margin: auto;
+   background-color: rgba(255, 255, 255, .1);
+   transition: all 0.3s ease-out 0s;
+}
+
+.Img-HoverEffect-2:after {
+   content: "";
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 0;
+   height: 0;
+   background-color: rgba(255, 255, 255, .1);
+   transition: all 0.3s ease-out 0s;
+}
+
+.Img-HoverEffect-2:hover:before,
+.Img-HoverEffect-2:hover:after {
+   width: 100%;
+   height: 100%;
+
+}
+
+.rotate-animation {
+   animation: rotate-animation 15s infinite linear;
+}
+
+@keyframes rotate-animation {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   50% {
+      transform: rotate(180deg);
+   }
+
+   100% {
+      transform: rotate(360deg);
+   }
+}

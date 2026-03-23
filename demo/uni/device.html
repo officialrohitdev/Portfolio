@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Uni Extracts</title>
+   <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/bootstrap.css" />
+   <link rel="stylesheet" href="css/master.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+   <!-- Header -->
+   <header>
+      <nav class="navbar">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">
+               <img src="img/img1.gif" alt="" />
+            </a>
+            <div class="topNav">
+               <a href="./index.html#Authentic" class="ThemeBtn">Authentic</a>
+
+               <div class="ToggleBtn-menu">
+                  <button class="ToggleBtn" id="openNavBtn" title="Open" onclick="openNav()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <nav class="sidenav" id="sidenav">
+      <div class="sidenav-overlay" onclick="closeNav();"></div>
+      <div class="sidenav-body">
+         <button class="sidenav__btn" aria-label="Close navigation" onclick="closeNav();">
+            <i class="material-icons">close</i>
+         </button>
+         <ul class="sidenav__list scrollbar-gradient">
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="index.html">Home</a>
+            </li>
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="device.html">Device</a>
+            </li>
+            <li class="sidenav__item">
+               <a class="sidenav__link" href="products.html">Products</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+   <!-- Header end -->
+
+   <section class="PageBanner">
+      <img src="./img/device-left.png" alt="">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="secHead headCenter PageTitle">
+                  <h2 data-aos="flip-left" data-aos-duration="1500">Device</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+      <canvas id="canvas"></canvas>
+   </section>
+
+   <div id="particles-js"></div>
+
+   <main class="overflow-hidden">
+      <section class="custom-space">
+         <div class="container">
+            <div class="row justify-content-center g-5">
+               <div class="col-lg-3">
+                  <div class="deviceImgbox" data-aos="fade-right" data-aos-duration="2000">
+                     <img src="./img/device-left.png" class="w-100" alt="">
+                  </div>
+               </div>
+
+               <div class="col-lg-8">
+                  <div class="DeviceDetails">
+                     <div class="secHead pt-5 device-para" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
+                        <h2>Premium Vaping Experience</h2>
+                        <p>
+                           Our devices use Sub-Ohm technology which starts the voltage when hitting the pen at a
+                           specific temperature, then slowly decreases voltage the longer you hit, providing more
+                           flavor and less heat to our precious terpy oil.
+                        </p>
+                     </div>
+                     <img class="ProImg" src="./img/device-measurement.png" alt="" data-aos="fade-up" data-aos-duration="2000">
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="about-footer">
+                  <a href="index.html" class="brandLogo" data-aos="zoom-in" data-aos-duration="1500">
+                     <img src="./img/img1.gif" alt="" />
+                  </a>
+
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                     soluta voluptates in aliquam est iure laborum quaerat!
+                  </p>
+               </div>
+            </div>
+
+            <div class="col-lg-2">
+               <div class="footer-col">
+                  <h6>Our Company</h6>
+                  <ul>
+                     <li><a href="device.html">Device</a></li>
+                     <li><a href="products.html">Products</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-2">
+               <div class="footer-col">
+                  <h6>Our Policies</h6>
+                  <ul>
+                     <li><a href="javascript:void(0)">Terms of Service</a></li>
+                     <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-4">
+               <div class="footer-col">
+                  <h6>Join the Uni Club</h6>
+                  <div class="verify-InputBox">
+                     <input type="text" name="" id="" class="form-control" placeholder="Enter your email" />
+                     <button type="button" class="ThemeBtn">Enroll Now</button>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-12">
+               <div class="copyright">
+                  <p>© 2023 Uni Extracts</p>
+                  <ul class="footer-social">
+                     <li>
+                        <a href="javascript:void(0)">
+                           <img src="img/insta.svg" alt="" />
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <button id="scrollTotop">
+      <div class="ScrollArrow">
+         <i class="material-icons">expand_less</i>
+      </div>
+   </button>
+
+   <script src="js/jquerymin.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="js/header.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/particles,js"></script>
+   <script src="js/particles_script.js"></script>
+   <script src="js/smoke.js"></script>
+</body>
+
+</html>

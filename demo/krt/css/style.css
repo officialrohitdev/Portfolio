@@ -1,0 +1,505 @@
+/* Home Page css */
+
+/* Top Banner */
+
+.topBanner-wrapper {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.banner-details h6 {
+   font-size: 24px;
+   color: var(--clr-primary);
+   margin: 0 0 15px;
+}
+
+.banner-details h1 {
+   font-size: 50px;
+   margin: 0 0 30px;
+}
+
+.dot-img1 {
+   position: absolute;
+   top: 145px;
+   right: 20px;
+}
+
+.dot-img2 {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.banner-circle {
+   position: absolute;
+   bottom: -140px;
+   right: -140px;
+}
+
+.banner-circle img {
+   width: 100%;
+}
+
+.banner-circle .ScrollDown {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   writing-mode: tb;
+   color: var(--clr-white);
+}
+
+.ScrollDown p {
+   margin: 0;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+
+.ScrollDown i {
+   font-size: 18px;
+}
+
+/* Top Banner end */
+
+/* about */
+
+.about-wrapper {
+   position: relative;
+}
+
+.about-wrapper .dot-img1 {
+   top: auto;
+   bottom: 50px;
+}
+
+.about-imgBox {
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   width: 100%;
+   max-width: 500px;
+   height: 550px;
+   border-radius: 100px 100px 20px 100px;
+   background: var(--clr-gradient);
+   box-shadow: 0 10px 50px rgb(0 0 0 / 50%);
+}
+
+.about-imgBox img {
+   filter: drop-shadow(0px 5px 15px rgb(0 0 0 / 30%));
+}
+
+.about-imgBox:hover img {
+   animation: imgEffect 3s linear infinite;
+}
+
+.about-highlights-grid {
+   margin: 40px 0 60px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px 130px;
+}
+
+.about-highlights h2 {
+   font-size: 40px;
+   font-weight: normal;
+   display: inline-flex;
+   gap: 10px;
+}
+
+.about-highlights h2 span {
+   background: var(--clr-btn-gradient);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.about-highlights h6 {
+   font-size: 18px;
+   font-weight: normal;
+}
+
+/* Product slider  */
+
+.aboutProducts-details {
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+}
+
+.aboutProducts-details .ArrowControl {
+   position: relative;
+   top: -40px;
+}
+
+.ArrowControl {
+   display: flex;
+   gap: 40px;
+}
+
+.ArrowControl .button-prev img {
+   transform: rotate(180deg);
+}
+
+.button-prev.swiper-button-disabled,
+.button-next.swiper-button-disabled {
+   opacity: 0.5;
+   pointer-events: none;
+}
+
+.ProductRow {
+   position: relative;
+   display: flex;
+}
+
+.ProTitles {
+   display: flex;
+   min-width: 200px;
+   position: relative;
+   align-items: center;
+   gap: 20px;
+}
+
+.ProductTitle {
+   writing-mode: tb;
+   text-transform: uppercase;
+   margin: 0;
+   font-size: 34px;
+   color: var(--clr-secondary);
+   letter-spacing: 5px;
+   transform: rotate(180deg);
+}
+
+.ProductSwiper .swiper.mySwiper {
+   width: 100%;
+   max-width: 100vw;
+}
+
+.productCard {
+   padding: 50px 25px 25px;
+   background: var(--clr-secondary);
+   border-radius: 15px;
+}
+
+.ProductImg {
+   margin-bottom: 30px;
+}
+
+.ProductImg img {
+   width: 100%;
+   filter: drop-shadow(0px 10px 30px rgb(0 0 0 / 60%));
+   aspect-ratio: 1;
+   object-fit: contain;
+}
+
+.productDetails {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.productDetails h6 {
+   margin: 0;
+   font-size: 16px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+   font-weight: normal;
+}
+
+.productCard:hover .ProductImg img {
+   animation: imgEffect 3s linear infinite;
+}
+
+/* video wrapper */
+
+.video-wrapper {
+   position: relative;
+}
+
+.video-wrapper:after {
+   content: '';
+   position: absolute;
+   width: 70%;
+   height: calc(100% - 80px);
+   left: 0;
+   top: 0;
+   background: var(--clr-gradient);
+   z-index: -1;
+   border-radius: 0 100px 20px 0;
+}
+
+.video-wrapper .dot-img1 {
+   right: auto;
+   left: 20px;
+   top: 50px;
+}
+
+.video-contentDetails {
+   position: relative;
+   display: flex;
+   height: 100%;
+   align-items: center;
+}
+
+.video-contentDetails .placeholder-img {
+   position: absolute;
+   top: 0;
+   width: 200px;
+   right: 100px;
+   opacity: 0.1;
+}
+
+.videoBlock {
+   width: 100%;
+   max-width: 400px;
+   height: 550px;
+   margin: auto;
+   border-radius: 20px 100px 20px 100px;
+   line-height: 0;
+   overflow: hidden;
+   position: relative;
+}
+
+@media (min-width: 1400px) {
+   .videoBlock {
+      max-width: 450px;
+      height: 650px;
+   }
+}
+
+.videoBlock:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: var(--clr-dark);
+   opacity: 0.25;
+   left: 0;
+   top: 0;
+}
+
+.videoBlock video {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.playButton {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 0;
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   outline: none;
+   background: linear-gradient(145deg, rgba(90, 75, 47, 1) 0%, rgba(16, 12, 4, 1) 100%);
+   z-index: 2;
+   transition: all 0.3s ease-in-out;
+   opacity: 0;
+}
+
+.playButton i {
+   font-size: 34px;
+   color: var(--clr-white);
+}
+
+.videoBlock:hover .playButton {
+   opacity: 1;
+}
+
+/* Insta Feed */
+
+.instaFeed {
+   text-align: center;
+}
+
+.instaFeed .eapps-instagram-feed-title {
+   display: none !important;
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more {
+   position: relative;
+   padding: 5px 30px;
+   font-size: 16px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   width: fit-content;
+   min-height: 50px;
+   line-height: normal;
+   min-width: fit-content;
+   border: 0;
+   background: transparent;
+   color: var(--clr-white);
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   border-radius: 30px;
+   transition: all 0.5s ease-in-out;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+   margin-top: 50px;
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more:before {
+   content: '';
+   position: absolute;
+   min-width: 50px;
+   width: 50px;
+   height: 100%;
+   background: var(--clr-btn-gradient);
+   color: var(--clr-white);
+   border-radius: 30px;
+   left: 0;
+   top: 0;
+   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.3);
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more:after {
+   content: '\f1df';
+   font-family: 'Material Icons';
+   transition: all 0.3s ease-in-out;
+   font-size: 18px;
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more .eapps-instagram-feed-posts-grid-load-more-text {
+   position: relative;
+   z-index: 2;
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more:hover {
+   gap: 10px;
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more:hover:before {
+   width: 100%;
+}
+
+.instaFeed .eapps-instagram-feed-posts-item-template-tile .eapps-instagram-feed-posts-item-overlay {
+   opacity: 0.5;
+   visibility: visible;
+}
+
+/* media logos */
+
+.mediaTitle {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   white-space: nowrap;
+   align-items: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: normal;
+   color: var(--clr-primary);
+   margin: 0 0 50px;
+}
+
+.mediaTitle:before {
+   content: '';
+   width: 100%;
+   height: 1px;
+   background: var(--clr-btn-gradient);
+   transform: rotate(180deg);
+}
+
+.mediaTitle:after {
+   content: '';
+   width: 100%;
+   height: 1px;
+   background: var(--clr-btn-gradient);
+}
+
+.mediaLogos-container {
+   position: relative;
+   padding: 0 15px;
+   display: flex;
+   align-items: center;
+   gap: 135px;
+   width: max-content;
+}
+
+.mediaLogos {
+   display: flex;
+   align-items: center;
+   gap: 135px;
+   animation: logoloop 30s linear infinite;
+   animation-play-state: running;
+}
+
+@keyframes logoloop {
+   0% {
+      transform: translateX(0%);
+   }
+
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+/* media logos end */
+
+
+/* welcome Modal  */
+
+#WelcomeModal {
+   background: rgb(0 0 0 / 50%);
+   backdrop-filter: blur(15px);
+}
+
+#WelcomeModal .modal-content {
+   background: transparent;
+   border: 0;
+}
+
+#WelcomeModal .modal-content .modal-body {
+   padding: 0;
+   text-align: center;
+}
+
+.welcome-modalDetails .brandLogo img {
+   width: 200px;
+}
+
+.welcome-modalDetails .brandLogo {
+   margin: 0 0 30px;
+}
+
+.welcome-modalDetails h2 {
+   font-size: 50px;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin: 0 0 20px;
+}
+
+.welcome-modalDetails h5 {
+   font-size: 24px;
+   margin: 0 0 20px;
+}
+
+.welcome-modalDetails h6 {
+   margin-bottom: 40px;
+   font-size: 18px;
+   font-weight: normal;
+}
+
+.welcome-modalDetails .btn-row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+.welcome-modalDetails .ThemeBtn {
+   box-shadow: none;
+}
+
+/* welcome Modal end*/

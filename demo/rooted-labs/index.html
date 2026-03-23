@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes"
+    />
+    <title>Rooted labs</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link href="./icon/material-icon.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+
+  <body>
+    <header id="myHeader" class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="header-nav">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo.png" alt="" />
+            </a>
+
+            <div class="navigation">
+              <button
+                class="navbar-toggler ToggleButton"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#sideaNav"
+                aria-controls="sideaNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <div
+                  class="nav-overlay"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#sideaNav"
+                ></div>
+              </button>
+
+              <div class="collapse navbar-collapse" id="sideaNav">
+                <a href="index.html" class="sidenav-logo d-lg-none">
+                  <img src="./img/logo.png" alt="" />
+                </a>
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      href="./index.html"
+                      type="button"
+                      class="nav-link active"
+                    >
+                      Home
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="./about.html" type="button" class="nav-link">
+                      About Us
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="./products.html" type="button" class="nav-link">
+                      Products
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      href="./verification.html"
+                      type="button"
+                      class="nav-link"
+                    >
+                      Verification
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="head-social">
+              <a href="javascript:void(0)" class="social-icon">
+                <img src="./icon/insta-icon.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="topBanner">
+      <img src="./img/RootedSymbol.png" class="RootedSymbol" alt="" />
+      <div class="container">
+        <div class="banner-grid">
+          <div class="banner-titleInfo">
+            <h1>
+              Discover <br />
+              The Future <br />
+              Of vaping
+            </h1>
+            <p>
+              Discover premium vaping devices with bold flavors and sleek
+              design. A modern alternative crafted for style, comfort, and
+              satisfaction
+            </p>
+            <a href="javascript:void(0)" class="ThemeBtn">
+              Shop Now
+              <i class="material-icons">east</i>
+            </a>
+
+            <div class="reviewInfo">
+              <div class="reviewProfiles">
+                <img src="./img/profile-1.png" alt="profile-img" />
+                <img src="./img/profile-2.png" alt="profile-img" />
+                <img src="./img/profile-3.png" alt="profile-img" />
+              </div>
+
+              <div class="reviewRating">
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+                <i class="material-icons">star</i>
+              </div>
+
+              <h6>100k+ Users Purchased</h6>
+            </div>
+          </div>
+
+          <div class="banner-img">
+            <img src="./img/banner-img.png" alt="banner-img" />
+          </div>
+
+          <div class="flavorInfo">
+            <div class="flavor-description">
+              <p>
+                Discover premium vaping devices with bold flavors and sleek
+                design. A modern alternative crafted for style, comfort, and
+                satisfaction
+              </p>
+
+              <a href="javascript:void(0)" class="TextBtn">
+                <span>Read more</span>
+                <i class="material-icons">east</i>
+              </a>
+            </div>
+
+            <div class="flavor-shape">
+              <img
+                src="./img/device.png"
+                alt="flavor-shape"
+                class="flavor-device"
+              />
+              <h6>The Next Gen of Vape</h6>
+              <p>Experience the next-gen of vaping with advanced devices.</p>
+              <p>
+                Rich flavors, smooth hits, and unmatched quality in every puff.
+              </p>
+              <a href="javascript:void(0)" class="TextBtn">
+                <span>Shop Now</span>
+                <i class="material-icons">east</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="custom-space">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="productTitle">
+                <div class="section-title">
+                  <h2>Popular Flavors</h2>
+                  <p>
+                    Whether you crave a sweet escape, a cool refresh, or a bold
+                    kick, our expertly crafted flavors are designed to match
+                    your vibe and elevate every puff to perfection
+                  </p>
+                </div>
+
+                <div class="product-btns">
+                  <div class="swiper-arrows">
+                    <div class="swiper-arrow-prev swiper-arrow-icon">
+                      <i class="material-icons">west</i>
+                    </div>
+                    <div class="swiper-arrow-next swiper-arrow-icon">
+                      <i class="material-icons">east</i>
+                    </div>
+                  </div>
+                  <a href="javascript:void(0)" class="ThemeBtn">
+                    All products
+                    <i class="material-icons">east</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="productSlider">
+                <div class="swiper flavorSwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="flavor-card blue-dream">
+                        <img
+                          src="./img/flavors/BlueDream.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Blueberry</p>
+                            <p>Sweet</p>
+                            <p>Herbal</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Creative</p>
+                            <p>Uplifted</p>
+                            <p>Energetic</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card blue-razz">
+                        <img
+                          src="./img/flavors/BlueRazz.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Berry</p>
+                            <p>Sweet</p>
+                            <p>Candy</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Relaxed</p>
+                            <p>Happy</p>
+                            <p>Focused</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card gods-gift">
+                        <img
+                          src="./img/flavors/GodsGift.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Gassy</p>
+                            <p>Pungent</p>
+                            <p>Earthy</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Euphoric</p>
+                            <p>Sleepy</p>
+                            <p>Happy</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Cannabis Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card gorilla-runtz">
+                        <img
+                          src="./img/flavors/GorillaRuntz.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Diesel</p>
+                            <p>Earthy</p>
+                            <p>Pungent</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Happy</p>
+                            <p>Energetic</p>
+                            <p>Creative</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Cannabis Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card lemon-drop">
+                        <img
+                          src="./img/flavors/LemonDrop.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Gassy</p>
+                            <p>Pungent</p>
+                            <p>Citrus</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Euphoric</p>
+                            <p>Happy</p>
+                            <p>Focused</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Cannabis Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card magic-melon">
+                        <img
+                          src="./img/flavors/MagicMelon.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Tropical</p>
+                            <p>Fruity</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Euphoric</p>
+                            <p>Uplifted</p>
+                            <p>Happy</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card mango-nana">
+                        <img
+                          src="./img/flavors/MangoNana.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Tropical</p>
+                            <p>Fruity</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Happy</p>
+                            <p>Relaxed</p>
+                            <p>Uplifted</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card passion-fruitPunch">
+                        <img
+                          src="./img/flavors/PassionFruitPunch.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Fruity</p>
+                            <p>Tropical</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Creative</p>
+                            <p>Uplifted</p>
+                            <p>Calm</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card purple-diesel">
+                        <img
+                          src="./img/flavors/PurpleDiesel.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Diesel</p>
+                            <p>Pungent</p>
+                            <p>Fruity</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Happy</p>
+                            <p>Uplifted</p>
+                            <p>Creative</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Cannabis Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card rainbow-sherbet">
+                        <img
+                          src="./img/flavors/RainbowSherbet.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Sweet</p>
+                            <p>Berry</p>
+                            <p>Citrus</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Relaxed</p>
+                            <p>Uplifted</p>
+                            <p>Calm</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card rocket-pop">
+                        <img
+                          src="./img/flavors/RocketPop.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Berry</p>
+                            <p>Chaerry</p>
+                            <p>Lime</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Calm</p>
+                            <p>Euphoric</p>
+                            <p>Uplifted</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card sky-walkerOG">
+                        <img
+                          src="./img/flavors/SkywalkerOG.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Pungent</p>
+                            <p>Earthy</p>
+                            <p>Citrus</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Sleepy</p>
+                            <p>Relaxed</p>
+                            <p>Euphoric</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Cannabis Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card strawberry-cough">
+                        <img
+                          src="./img/flavors/StrawberryCough.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Strawberry</p>
+                            <p>Sweet</p>
+                            <p>Earthy</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Energetic</p>
+                            <p>Uplifted</p>
+                            <p>Talkative</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card strawberry-lemonade">
+                        <img
+                          src="./img/flavors/StrawberryLemonade.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Strawberry</p>
+                            <p>Lemon</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Euphoric</p>
+                            <p>Uplifted</p>
+                            <p>Relaxed</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card sugar-plum">
+                        <img
+                          src="./img/flavors/SugarPlum.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>candy</p>
+                            <p>Sweet</p>
+                            <p>Fruity</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Happy</p>
+                            <p>Energetic</p>
+                            <p>Euphoric</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card tropical-burst">
+                        <img
+                          src="./img/flavors/TropicalBurst.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Pineapple</p>
+                            <p>Orange</p>
+                            <p>Citrus</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Uplifted</p>
+                            <p>Energetic</p>
+                            <p>Euphoric</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card twisted-cherries">
+                        <img
+                          src="./img/flavors/TwistedCherries.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Cherry</p>
+                            <p>Candy</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Creative</p>
+                            <p>Euphoric</p>
+                            <p>Relaxed</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card watermelon-slush">
+                        <img
+                          src="./img/flavors/WatermelonSlush.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Fruity</p>
+                            <p>Candy</p>
+                            <p>Tropical</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Relaxed</p>
+                            <p>Sleepy</p>
+                            <p>Calm</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card zhirley-temple">
+                        <img
+                          src="./img/flavors/ZhirleyTemple.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Sweet</p>
+                            <p>Fruity</p>
+                            <p>Citrus</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Focused</p>
+                            <p>Relaxed</p>
+                            <p>Euphoric</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="flavor-card zour-patch">
+                        <img
+                          src="./img/flavors/ZourPatch.png"
+                          alt="flavor-img"
+                          class="flavor-img"
+                        />
+                        <div class="flavor-details">
+                          <div class="flavor-info">
+                            <h6>Flavor</h6>
+                            <p>Candy</p>
+                            <p>Sour</p>
+                            <p>Sweet</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Effects</h6>
+                            <p>Happy</p>
+                            <p>Hungry</p>
+                            <p>Uplifted</p>
+                          </div>
+
+                          <div class="flavor-info">
+                            <h6>Ingredients</h6>
+                            <p>Liquid Diamonds</p>
+                            <p>Cannabis Oil</p>
+                            <p>Terpenes</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="custom-space">
+        <div class="container">
+          <div class="row gx-5 align-items-center">
+            <div class="col-lg-7">
+              <div class="aboutImg-box">
+                <img src="./img/about-img.png" alt="" />
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="section-title">
+                <h2>About Us</h2>
+                <p>
+                  We’re here to craft more than just flavors — we’re creating
+                  moments. Our mission is to deliver premium quality,
+                  exceptional taste, and a vaping experience that’s as unique as
+                  you are.
+                </p>
+
+                <a href="./about.html" class="ThemeBtn"
+                  >Learn More <i class="material-icons">east</i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-effectLogo">
+          <img src="./img/RootedSymbol-2.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer-logo">
+                <img src="./img/logo.png" alt="logo" width="150" />
+                <p>
+                  Delivering premium vaping products and flavors with quality,
+                  safety, and satisfaction in every puff.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="footer-links">
+                    <h6>Quick Links</h6>
+                    <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="footer-links">
+                    <h6>Our Company</h6>
+                    <ul>
+                      <li><a href="./products.html">Products</a></li>
+                      <li><a href="./verification.html">Verification</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="copyright-info">
+            <p>© Copyright 2025 Rooted Labs. All Rights Reserved</p>
+            <a href="javascript:void(0)" class="social-icon">
+              <img src="./icon/insta-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <button id="scrollTotop">
+      <div class="ScrollArrow">
+        <i class="material-icons">expand_less</i>
+      </div>
+    </button>
+
+    <!-- WelcomeModal -->
+
+    <div
+      class="modal fade WelcomeModal"
+      id="WelcomeModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="welcome-modalDetails">
+              <div class="brandLogo">
+                <img src="./img/logo.png" alt="" />
+              </div>
+              <h5>By entering this website, you confirm that you are at least 21 years old</h5>
+              <div class="btn-row">
+                <a class="ThemeBtn" id="btn-beta" role="button">No</a>
+                <a
+                  class="ThemeBtn"
+                  id="btn-alpha"
+                  data-bs-dismiss="modal"
+                  role="button"
+                  >Yes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/headroom.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

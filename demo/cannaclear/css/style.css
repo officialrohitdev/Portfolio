@@ -1,0 +1,332 @@
+/* Home */
+
+/* Top banner */
+.top-banner {
+    background: var(--clr-lightGreen);
+    min-height: 115vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner-details {
+    text-align: center;
+    color: var(--clr-headingDark);
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-details h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-details h1 {
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.banner-details h6 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.banner-details p {
+    font-size: 16px;
+}
+
+.top-banner .bottom-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.top-banner .left-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.top-banner .right-wave {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+/* service card */
+
+.our-services {
+    overflow: visible;
+    padding: 30px 0;
+    margin-top: -200px;
+    position: relative;
+}
+
+.service-info {
+    border-radius: 40px;
+    background: var(--clr-white);
+    box-shadow: 0px 10px 60px 30px rgba(0, 0, 0, 0.05);
+    min-height: 250px;
+    padding: 40px;
+    text-align: center;
+    height: 100%;
+}
+
+.service-info .icon-btn {
+    min-width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0 auto 15px;
+    background: var(--clr-lightGreen);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-info .icon-btn img {
+    transition: all 0.3s ease-in-out;
+    filter: brightness(0);
+    width: 30px;
+    height: 30px;
+}
+
+.service-info h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.service-info p {
+    margin: 0;
+}
+
+.service-info:hover .icon-btn {
+    background: var(--clr-green);
+}
+
+.service-info:hover .icon-btn img {
+    filter: brightness(100);
+}
+
+/* about */
+
+.about-imgbox {
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.about-details {
+    padding: 40px;
+}
+
+/* product */
+
+.product-section {
+    background: var(--clr-lightGreen);
+    position: relative;
+    padding-top: 150px;
+}
+
+.product-btn a img {
+    transition: all 0.3s ease-in-out;
+}
+
+.product-btn a:hover img {
+    filter: brightness(100);
+}
+
+.top-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.bottom-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+/* parallax */
+
+.parallax-section {
+    background: rgb(255 255 255 / 75%) url(../img/parallax-bg.jpg) center no-repeat;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 140px;
+}
+
+/* bulk order */
+
+.bulk-order-section {
+    background: var(--clr-lightGreen);
+    position: relative;
+    padding: 150px 0 130px;
+}
+
+.bulkImg-box {
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+}
+
+.bulkImg-box img {
+    width: 100%;
+}
+
+.swiper-container {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.bulkOrderSwiper {
+    padding: 10px;
+    overflow: visible;
+}
+
+.bulkOrderSwiper .swiper-button-prev {
+    left: 0;
+}
+
+.bulkOrderSwiper .swiper-button-next {
+    right: 0;
+}
+
+.bulkOrderSwiper .swiper-pagination {
+    bottom: -40px;
+}
+
+/* Insta */
+
+.instaFeed .eui-widget-title {
+    display: none !important;
+}
+
+.instaFeed .eapps-instagram-feed-posts-item {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.instaFeed .eapps-instagram-feed-posts-item-link {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.instaFeed #eapps-instagram-feed-1 .eapps-instagram-feed-posts-slider-nav {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instaFeed .eapps-instagram-feed-posts-slider-nav-icon {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.instaFeed .eapps-instagram-feed-posts-slider-prev .eapps-instagram-feed-posts-slider-nav-icon {
+    right: auto !important;
+}
+
+.instaFeed .eapps-instagram-feed-posts-slider-next .eapps-instagram-feed-posts-slider-nav-icon {
+    left: auto !important;
+}
+
+.instaFeed .eapps-instagram-feed-posts-slider-next {
+    right: 25px !important;
+}
+
+.instaFeed .eapps-instagram-feed-posts-slider-prev {
+    left: 25px !important;
+}
+
+.socialVideo {
+    position: relative;
+    background: #fff;
+    border-radius: 40px;
+    padding-top: 80px;
+    margin-top: 50px;
+}
+
+.socialVideo:after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 2px);
+    height: 100%;
+    background: linear-gradient(180deg, rgba(18,120,52,1) 0%, rgba(14,14,14,1) 50%, rgba(108,171,64,0) 100%);
+    top: -1px;
+    left: -1px;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+.mobileFrame {
+    text-align: center;
+    width: 190px;
+    margin: auto;
+    position: relative;
+    height: 388px;
+    padding: 20px 7px 7px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: url(../img/mobile-frame.png) top no-repeat;
+    background-size: cover;
+}
+
+.mobileFrame video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 20px 20px;
+}
+
+.playBtn {
+    border: 0;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--clr-green);
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.playBtn i {
+    color: var(--clr-white);
+}
+
+.mobileFrame:hover .playBtn {
+    opacity: 1 !important;
+}
+
+.bottom-base {
+    text-align: center;
+}
+/* Home end */

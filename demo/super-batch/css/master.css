@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+   font-family: 'dino-and-friend';
+   src: url(../font/dino-and-friend.otf);
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   font-family: 'Manrope', sans-serif;
+   font-size: 14px;
+   line-height: 1.4;
+   font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'dino-and-friend';
+   letter-spacing: 1px;
+}
+
+a {
+   transition: all 0.3s ease-in-out;
+   text-decoration: none;
+   color: var(--sb-red);
+}
+
+a:hover {
+   text-decoration: none;
+   color: var(--sb-darkRed);
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+/* hide input type number arrow  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+   -moz-appearance: textfield;
+}
+
+/* hide input type number arrow end */
+
+
+/* form input  */
+
+.form-group {
+   margin: 0 0 15px;
+}
+
+.form-control {
+   border-radius: 30px;
+   padding: 10px 25px;
+   font-size: 14px;
+   min-height: 44px;
+   border-color: var(--input-border);
+   transition: all 0.3s ease-in-out;
+   font-weight: 500;
+}
+
+.form-control::placeholder {
+   font-weight: normal;
+}
+
+.form-control:focus {
+   box-shadow: none;
+   border-color: var(--sb-red);
+}
+
+/* form input end */
+
+/* Buttons */
+
+.ThemeBtn {
+   border: 0;
+   padding: 10px 30px;
+   border-radius: 30px;
+   color: #fff;
+   position: relative;
+   min-width: 100px;
+   background: var(--sb-red-BtnGradient);
+   font-size: 18px;
+   font-family: 'dino-and-friend';
+   letter-spacing: 2px;
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   animation-iteration-count: 1;
+}
+
+.ThemeBtn:hover {
+   animation-name: rubberBand;
+   color: #fff;
+}
+
+@keyframes rubberBand {
+   from {
+      transform: scale3d(1, 1, 1);
+   }
+
+   30% {
+      transform: scale3d(1.02, 0.75, 1);
+   }
+
+   40% {
+      transform: scale3d(0.75, 1.02, 1);
+   }
+
+   50% {
+      transform: scale3d(1, 0.85, 1);
+   }
+
+   65% {
+      transform: scale3d(.95, 1, 1);
+   }
+
+   75% {
+      transform: scale3d(1, .95, 1);
+   }
+
+   to {
+      transform: scale3d(1, 1, 1);
+   }
+}
+
+.ThemeBtn span {
+   position: relative;
+   z-index: 1;
+   text-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+}
+
+.ThemeBtn:after {
+   content: '';
+   position: absolute;
+   width: calc(100% - 20px);
+   height: 24px;
+   background: linear-gradient(180deg, rgba(255, 103, 113, 0.65) 0%, rgba(235, 29, 43, 0) 100%);
+   left: 50%;
+   top: 5px;
+   transform: translateX(-50%);
+   border-radius: 30px;
+}
+
+.ThemeBtn.sb-blue-BtnGradient {
+   background: var(--sb-blue-BtnGradient);
+}
+
+.ThemeBtn.sb-blue-BtnGradient:after {
+   background: linear-gradient(180deg, rgba(148, 185, 255, 0.65) 0%, rgba(98, 160, 231, 0) 100%);
+}
+
+/* Buttons end */

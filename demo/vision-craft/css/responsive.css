@@ -1,0 +1,200 @@
+@media (max-width: 1180px) {
+  .Banner-Details {
+    padding: 0;
+  }
+
+  .Best-Face-Info {
+    padding-left: 20px;
+  }
+
+  #HomeSlider .swiper-slide {
+    height: 60vh;
+  }
+
+  .Blog-Details {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #HomeSlider .swiper-slide {
+    height: 50vh;
+  }
+
+  .Banner-Details .Main-Heading h2 {
+    font-size: 40px;
+  }
+
+  .Main-Heading h2 {
+    font-size: 36px;
+    margin: 0 0 10px;
+  }
+
+  .About-Info {
+    text-align: center;
+  }
+
+  .Best-Face-Info {
+    padding-left: 0;
+  }
+
+  .Modern-Glasses-bg {
+    height: auto;
+  }
+
+  .Cate-Info {
+    padding: 20px 20px 20px 30px;
+    background: #ffffff;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+  }
+
+  .custom-space {
+    padding: 30px 0;
+  }
+
+  .Footer-Col h5 {
+    margin: 0 0 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #HomeSlider .swiper-slide {
+    height: 60vh;
+  }
+
+  #HomeSlider .swiper-slide .Banner-Slide {
+    object-position: right;
+    filter: brightness(0.5);
+  }
+
+  .Banner-Details {
+    text-align: center;
+  }
+
+  .Banner-Details .Main-Heading h2,
+  .Banner-Details .Main-Heading p {
+    color: #fff;
+  }
+
+  .Banner-Details .Main-Heading h2 {
+    font-size: 28px;
+  }
+
+  .Main-Heading h2 {
+    font-size: 24px;
+  }
+
+  .Main-Heading h5 {
+    font-size: 18px;
+  }
+
+  .row > * {
+    padding: 0 20px;
+  }
+
+  .Main-Heading h2 br {
+    display: none;
+  }
+
+  .About-Container .wrappe-1 {
+    padding-top: 30px;
+    padding-bottom: 300px;
+  }
+
+  .Vision-Info .dot-bg {
+    display: none;
+  }
+
+  .Best-Face-Info .dot-bg {
+    display: none;
+  }
+
+  .Modern-Glasses-Info {
+    padding: 30px 20px;
+    position: relative;
+  }
+
+  .Modern-Glasses-Info:after {
+    background: #cfc5b7f0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .Modern-Glasses-Info .Main-Heading {
+    position: relative;
+    z-index: 1;
+  }
+
+  .Modern-Glasses-Info .Btn-Block {
+    position: relative;
+    z-index: 1;
+  }
+
+  .About-Info {
+    padding: 0;
+  }
+
+  .Modern-Glasses-bg {
+    height: auto;
+  }
+
+  .Btn-Block {
+    margin-top: 10px;
+  }
+
+  .Collection-Info {
+    padding-bottom: 30px;
+  }
+
+  .Blog-Details {
+    padding: 20px;
+  }
+
+  .Video-Container {
+    height: 400px;
+  }
+
+  .modal-content {
+    width: 94%;
+    margin: auto;
+  }
+
+  #VideoModel .modal-body .videoBox {
+    height: 400px;
+  }
+
+  footer {
+    padding-top: 30px;
+  }
+
+  .Footer-AboutBrands {
+    padding-right: 0;
+  }
+
+  .Footer-Col h5 {
+    margin: 0 0 20px;
+  }
+
+  .Footer-Col {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+
+  .Cart-Count {
+    left: 10px;
+    bottom: 20px;
+  }
+
+  .center-btns .ThemeBtn {
+    margin: 10px;
+  }
+
+  .Best-Face-Info {
+    border-bottom: 1px solid #ddd;
+  }
+}

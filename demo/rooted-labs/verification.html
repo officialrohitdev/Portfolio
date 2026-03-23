@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes"
+    />
+    <title>Rooted labs | Product Verification</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link href="./icon/material-icon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+
+  <body>
+    <header id="myHeader" class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="header-nav">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/logo.png" alt="" />
+            </a>
+
+            <div class="navigation">
+              <button
+                class="navbar-toggler ToggleButton"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#sideaNav"
+                aria-controls="sideaNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <div
+                  class="nav-overlay"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#sideaNav"
+                ></div>
+              </button>
+
+              <div class="collapse navbar-collapse" id="sideaNav">
+                <a href="index.html" class="sidenav-logo d-lg-none">
+                  <img src="./img/logo.png" alt="" />
+                </a>
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="./index.html" type="button" class="nav-link">
+                      Home
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="./about.html" type="button" class="nav-link">
+                      About Us
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="./products.html" type="button" class="nav-link">
+                      Products
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      href="./verification.html"
+                      type="button"
+                      class="nav-link active"
+                    >
+                      Verification
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="head-social">
+              <a href="javascript:void(0)" class="social-icon">
+                <img src="./icon/insta-icon.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="topBanner verificationBanner">
+        <div class="verification-innerContainer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="banner-titleInfo">
+                  <h1>Make sure you verify your Product</h1>
+                  <p>
+                    Discover premium vaping devices with bold flavors and sleek
+                    design. A modern alternative crafted for style, comfort, and
+                    satisfaction.
+                  </p>
+                  <div class="verification-InputBox">
+                    <input
+                      type="text"
+                      name="verify-input"
+                      id="verify-input"
+                      placeholder="Enter your product code"
+                    />
+                    <button
+                      class="ThemeBtn m-0"
+                      data-bs-toggle="modal"
+                      data-bs-target="#verifyModal"
+                    >
+                      Verify Now
+                      <i class="material-icons">east</i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="verification-bannerImg">
+            <img src="./img/banner-img-2.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-effectLogo">
+          <img src="./img/RootedSymbol-2.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer-logo">
+                <img src="./img/logo.png" alt="logo" width="150" />
+                <p>
+                  Delivering premium vaping products and flavors with quality,
+                  safety, and satisfaction in every puff.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="footer-links">
+                    <h6>Quick Links</h6>
+                    <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="footer-links">
+                    <h6>Our Company</h6>
+                    <ul>
+                      <li><a href="./products.html">Products</a></li>
+                      <li><a href="./verification.html">Verification</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="copyright-info">
+            <p>© Copyright 2025 Rooted Labs. All Rights Reserved</p>
+            <a href="javascript:void(0)" class="social-icon">
+              <img src="./icon/insta-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <button id="scrollTotop">
+      <div class="ScrollArrow">
+        <i class="material-icons">expand_less</i>
+      </div>
+    </button>
+
+    <!-- verify modal -->
+
+    <div
+      class="modal fade"
+      id="verifyModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      aria-hidden="true"
+      aria-labelledby="verifyModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="material-icons">close</i>
+            </button>
+            <div class="verifyInfo">
+              <div class="detailsInfo">
+                <div class="IconBox">
+                  <img src="./img/success.png" alt="" />
+                </div>
+
+                <h2>Serial C578</h2>
+                <h5>Authentic <b>Rooted Labs</b> Product</h5>
+                <button type="button" class="ThemeBtn">Verified</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Error -->
+
+    <div
+      class="modal fade"
+      id="ErrorModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      aria-hidden="true"
+      aria-labelledby="ErrorModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="material-icons">close</i>
+            </button>
+
+            <div class="verifyInfo">
+              <div class="detailsInfo">
+                <div class="IconBox">
+                  <img src="./img/error.png" alt="" />
+                </div>
+
+                <h2 class="errorTitle">Serial Not Found!</h2>
+                <h5>Please Try Again</h5>
+                <button type="button" class="ThemeBtn" data-bs-dismiss="modal">
+                  Ok
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal end -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/headroom.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
