@@ -192,6 +192,14 @@
 			// reorganize stack
 			buildStack();
 			isMenuOpen = false;
+			
+			// Re-layout isotope if demo page becomes visible
+			if(futurePage.id === 'page-demo') {
+				var $gallery = jQuery('.gallery');
+				if($gallery.data('isotope')) {
+					$gallery.isotope('reloadItems').isotope('layout');
+				}
+			}
 		});
 	}
 
