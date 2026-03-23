@@ -380,7 +380,7 @@ a:hover {
 
 .page .content,
 .page.home {
-  height: 100vh;
+  height: 100dvh;
   overflow-y: auto;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
@@ -1363,7 +1363,7 @@ a:hover {
   }
 
   .section-padding {
-    padding: 60px 5px 100px;
+    padding: 60px 5px;
   }
 
   .nav-button {
@@ -1419,7 +1419,7 @@ a:hover {
   #AboutMe {
     min-height: auto;
     height: auto;
-    padding: 30px 5px 100px;
+    padding: 30px 5px 60px;
   }
 
   .home .img .pattern:after {
@@ -1436,7 +1436,7 @@ a:hover {
 
   .page .content,
   .page.home {
-    height: 100vh;
+    height: 100dvh;
   }
 
   .about .intro {
