@@ -124,10 +124,11 @@ a:hover {
   content: '';
   width: 10px;
   height: 10px;
+  background: #0d0f16;
   border: 1px solid #847c7c;
   border-radius: 50%;
   position: absolute;
-  right: -10px;
+  right: 0;
   bottom: -5px;
 }
 
@@ -464,7 +465,6 @@ a:hover {
 
 .home .content .caption .social {
   display: inline-block;
-  top: -20px;
   margin-left: 20px;
   position: relative;
 }
@@ -1363,7 +1363,7 @@ a:hover {
   }
 
   .section-padding {
-    padding: 60px 25px;
+    padding: 40px 5px;
   }
 
   .nav-button {
@@ -1371,30 +1371,36 @@ a:hover {
   }
 
   .menu-button {
-    width: 25px;
-    height: 19px;
-    right: 0px;
+    right: 10px;
     position: fixed;
     left: auto;
+    border: 10px solid #2A2A2E;
+    padding: 16px;
   }
 
   .logo {
-    top: 20px;
-    left: 20px;
-    width: 100px;
+    top: 10px;
+    left: 0px;
+    width: 70px;
+    img {
+      width: 100%;
+    }
   }
 
   .js .pages-nav {
-    padding-top: 100px;
+    padding: 70px 0 0;
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    background: rgb(0 0 0 / 90%);
   }
 
   .js .pages-nav__item {
     padding: 10px 0;
-    /* float: left; */
   }
 
   .js .pages-nav__item .link {
-    margin: 0 30px;
+    margin: 0 20px;
   }
 
   .home .img {
@@ -1402,10 +1408,18 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: auto;
+    padding-top: 100px;
   }
 
   .home .img img {
     margin: 0;
+  }
+
+  #AboutMe {
+    min-height: auto;
+    height: auto;
+    padding: 30px 5px;
   }
 
   .home .img .pattern:after {
@@ -1419,9 +1433,6 @@ a:hover {
 }
 
 @media screen and (max-width: 575px) {
-  .section-padding {
-    padding: 60px 15px;
-  }
 
   .page .content,
   .page.home {
@@ -1431,12 +1442,6 @@ a:hover {
 
   .about .intro {
     font-size: 17px;
-  }
-
-  .home .content .caption .social {
-    top: auto;
-    margin-left: 0;
-    margin-top: 20px;
   }
 
   .resume .exp .date,
