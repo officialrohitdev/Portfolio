@@ -1363,7 +1363,7 @@ a:hover {
   }
 
   .section-padding {
-    padding: 60px 5px;
+    padding: 60px 5px 100px;
   }
 
   .nav-button {
@@ -1419,7 +1419,7 @@ a:hover {
   #AboutMe {
     min-height: auto;
     height: auto;
-    padding: 30px 5px 60px;
+    padding: 30px 5px 100px;
   }
 
   .home .img .pattern:after {
@@ -1437,7 +1437,6 @@ a:hover {
   .page .content,
   .page.home {
     height: 100vh;
-    min-height: 100vh;
   }
 
   .about .intro {
