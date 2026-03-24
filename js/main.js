@@ -193,12 +193,16 @@
 			buildStack();
 			isMenuOpen = false;
 			
-			// Re-layout isotope if demo page becomes visible
-			if(futurePage.id === 'page-demo') {
-				var $gallery = jQuery('.gallery');
-				if($gallery.data('isotope')) {
-					$gallery.isotope('reloadItems').isotope('layout');
+			// Re-layout portfolio isotope when page-work or page-demo is visible
+			if(futurePage.id === 'page-work' || futurePage.id === 'page-demo') {
+				var $portfolio = jQuery('.portfolio-gallery');
+				if($portfolio.length && $portfolio.data('isotope')) {
+					$portfolio.isotope('reloadItems').isotope('layout');
 				}
+			}
+			if(futurePage.id === 'page-demo') {
+				// Clear portfolio filter state so demo cards are always visible
+				jQuery('.filtering span[data-filter="*"]').addClass('active').siblings().removeClass('active');
 			}
 		});
 	}

@@ -109,28 +109,16 @@ $(window).on("load",function (){
                 [ isotope Portfolio ( Masonery Style ) ]
 -----------------------------------------------------------------*/
 
-    $('.gallery').isotope({
+    var $portfolioGallery = $('.portfolio-gallery').isotope({
         // options
         itemSelector: '.items'
     });
 
-    var $gallery = $('.gallery').isotope({
-        // options
-    });
-
-    // filter items on button click
+    // filter items on button click (portfolio only)
     $('.filtering').on( 'click', 'span', function() {
-
         var filterValue = $(this).attr('data-filter');
-
-        $gallery.isotope({ filter: filterValue });
-
-    });
-
-    $('.filtering').on( 'click', 'span', function() {
-
+        $portfolioGallery.isotope({ filter: filterValue });
         $(this).addClass('active').siblings().removeClass('active');
-
     });
 
 
