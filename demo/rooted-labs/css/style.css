@@ -1,13 +1,23 @@
 /* Home page */
 
 .topBanner {
-  background: linear-gradient(165deg, rgba(37, 0, 33, 1) 0%, rgba(17, 1, 34, 1) 50%, rgba(0, 24, 27, 1) 100%);
-  padding: 110px 25px 30px;
+  background: linear-gradient(
+    165deg,
+    rgba(37, 0, 33, 1) 0%,
+    rgba(17, 1, 34, 1) 50%,
+    rgba(0, 24, 27, 1) 100%
+  );
+  padding: 110px 15px 30px;
 }
 
 .productBanner {
   padding-bottom: 0;
-  background: linear-gradient(175deg, rgba(37, 0, 33, 1) 0%, rgba(17, 1, 34, 1) 50%, rgba(0, 24, 27, 1) 100%);
+  background: linear-gradient(
+    175deg,
+    rgba(37, 0, 33, 1) 0%,
+    rgba(17, 1, 34, 1) 50%,
+    rgba(0, 24, 27, 1) 100%
+  );
 }
 
 .banner-grid {
@@ -49,7 +59,7 @@
   display: flex;
   align-items: center;
   gap: 3px;
-  color: #F4E800;
+  color: #f4e800;
 }
 
 .reviewRating i {
@@ -71,7 +81,6 @@
 .reviewProfiles img:last-child {
   margin-left: -20px;
 }
-
 
 .banner-img img {
   width: 480px;
@@ -163,108 +172,184 @@
 .flavor-info h6 {
   margin: 0 0 10px;
   padding: 8px 15px;
-  background: linear-gradient(90deg, rgba(44, 150, 205, 1) 0%, rgb(4 102 153) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 150, 205, 1) 0%,
+    rgb(4 102 153) 100%
+  );
   border-radius: 30px;
   font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 5px 15px rgba(8, 127, 188, 0.20);
+  box-shadow: 0 5px 15px rgba(8, 127, 188, 0.2);
 }
 
 .blue-razz .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(123, 72, 141, 1) 0%, rgba(183, 30, 97, 1) 100%);
-  box-shadow: 0 5px 15px rgba(183, 30, 96, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 72, 141, 1) 0%,
+    rgba(183, 30, 97, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(183, 30, 96, 0.2);
 }
 
 .gods-gift .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(238, 138, 82, 1) 0%, rgb(187 105 1) 100%);
-  box-shadow: 0 5px 15px rgba(247, 151, 29, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 138, 82, 1) 0%,
+    rgb(187 105 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(247, 151, 29, 0.2);
 }
 
 .gorilla-runtz .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(119, 151, 107, 1) 0%, rgb(73 151 47) 100%);
-  box-shadow: 0 5px 15px rgba(100, 187, 70, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 151, 107, 1) 0%,
+    rgb(73 151 47) 100%
+  );
+  box-shadow: 0 5px 15px rgba(100, 187, 70, 0.2);
 }
 
 .lemon-drop .flavor-info h6 {
   background: linear-gradient(90deg, rgb(101 135 71) 0%, rgb(173 96 152) 100%);
-  box-shadow: 0 5px 15px rgba(205, 136, 186, 0.20);
+  box-shadow: 0 5px 15px rgba(205, 136, 186, 0.2);
 }
 
 .magic-melon .flavor-info h6 {
-  background: linear-gradient(90deg, rgb(165 131 41) 0%, rgba(102, 187, 70, 1) 100%);
-  box-shadow: 0 5px 15px rgba(102, 187, 70, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgb(165 131 41) 0%,
+    rgba(102, 187, 70, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(102, 187, 70, 0.2);
 }
 
 .mango-nana .flavor-info h6 {
-  background: linear-gradient(90deg, rgb(153 113 22) 0%, rgba(54, 115, 30, 1) 100%);
-  box-shadow: 0 5px 15px rgba(54, 115, 30, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgb(153 113 22) 0%,
+    rgba(54, 115, 30, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(54, 115, 30, 0.2);
 }
 
 .passion-fruitPunch .flavor-info h6 {
-  background: linear-gradient(90deg, rgb(155 56 128) 0%, rgba(143, 57, 148, 1) 100%);
-  box-shadow: 0 5px 15px rgba(143, 57, 148, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgb(155 56 128) 0%,
+    rgba(143, 57, 148, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(143, 57, 148, 0.2);
 }
 
 .purple-diesel .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(128, 77, 157, 1) 0%, rgba(69, 46, 141, 1) 100%);
-  box-shadow: 0 5px 15px rgba(69, 46, 141, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 77, 157, 1) 0%,
+    rgba(69, 46, 141, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(69, 46, 141, 0.2);
 }
 
 .rainbow-sherbet .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(94, 156, 138, 1) 0%, rgba(113, 82, 161, 1) 100%);
-  box-shadow: 0 5px 15px rgba(113, 82, 161, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 156, 138, 1) 0%,
+    rgba(113, 82, 161, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(113, 82, 161, 0.2);
 }
 
 .rocket-pop .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(198, 92, 108, 1) 0%, rgba(237, 36, 37, 1) 100%);
-  box-shadow: 0 5px 15px rgba(237, 36, 37, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 92, 108, 1) 0%,
+    rgba(237, 36, 37, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(237, 36, 37, 0.2);
 }
 
 .sky-walkerOG .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(15, 105, 98, 1) 0%, rgba(15, 69, 113, 1) 100%);
-  box-shadow: 0 5px 15px rgba(15, 69, 113, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 105, 98, 1) 0%,
+    rgba(15, 69, 113, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(15, 69, 113, 0.2);
 }
 
 .strawberry-cough .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(224, 64, 131, 1) 0%, rgba(219, 31, 38, 1) 100%);
-  box-shadow: 0 5px 15px rgba(219, 31, 38, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 64, 131, 1) 0%,
+    rgba(219, 31, 38, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(219, 31, 38, 0.2);
 }
 
 .strawberry-lemonade .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(248, 175, 59, 1) 0%, rgb(155 133 4) 100%);
-  box-shadow: 0 5px 15px rgba(253, 220, 21, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 175, 59, 1) 0%,
+    rgb(155 133 4) 100%
+  );
+  box-shadow: 0 5px 15px rgba(253, 220, 21, 0.2);
 }
 
 .sugar-plum .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(179, 96, 169, 1) 0%, rgba(161, 30, 89, 1) 100%);
-  box-shadow: 0 5px 15px rgba(161, 30, 89, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(179, 96, 169, 1) 0%,
+    rgba(161, 30, 89, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(161, 30, 89, 0.2);
 }
 
 .tropical-burst .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(113, 181, 89, 1) 0%, rgba(71, 128, 194, 1) 100%);
-  box-shadow: 0 5px 15px rgba(71, 128, 194, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(113, 181, 89, 1) 0%,
+    rgba(71, 128, 194, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(71, 128, 194, 0.2);
 }
 
 .twisted-cherries .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(154, 104, 83, 1) 0%, rgba(60, 168, 73, 1) 100%);
-  box-shadow: 0 5px 15px rgba(60, 168, 73, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(154, 104, 83, 1) 0%,
+    rgba(60, 168, 73, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(60, 168, 73, 0.2);
 }
 
 .watermelon-slush .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(92, 121, 72, 1) 0%, rgba(16, 172, 75, 1) 100%);
-  box-shadow: 0 5px 15px rgba(16, 172, 75, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 121, 72, 1) 0%,
+    rgba(16, 172, 75, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(16, 172, 75, 0.2);
 }
 
 .zhirley-temple .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(116, 122, 172, 1) 0%, rgba(5, 149, 183, 1) 100%);
-  box-shadow: 0 5px 15px rgba(5, 149, 183, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 122, 172, 1) 0%,
+    rgba(5, 149, 183, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(5, 149, 183, 0.2);
 }
 
 .zour-patch .flavor-info h6 {
-  background: linear-gradient(90deg, rgba(118, 186, 158, 1) 0%, rgba(122, 83, 161, 1) 100%);
-  box-shadow: 0 5px 15px rgba(122, 83, 161, 0.20);
+  background: linear-gradient(
+    90deg,
+    rgba(118, 186, 158, 1) 0%,
+    rgba(122, 83, 161, 1) 100%
+  );
+  box-shadow: 0 5px 15px rgba(122, 83, 161, 0.2);
 }
 
 .flavor-info {
@@ -323,7 +408,7 @@
 /* Product page */
 
 .product-card {
-  padding: 30px 30px 20px;
+  padding: 30px 15px 20px;
   background: var(--clr-primary);
   border-radius: 15px;
   box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
@@ -333,12 +418,13 @@
   position: relative;
   z-index: 1;
   cursor: pointer;
+  height: 100%;
 }
 
 .product-card .product-img {
-  height: 170px;
+  height: 150px;
   margin: 0 0 20px;
-  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.30));
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.3));
   transition: all 0.3s ease-in-out;
 }
 
@@ -374,6 +460,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  pointer-events: none;
 }
 
 .verification-bannerImg img {
@@ -381,7 +468,7 @@
 }
 
 .verification-bannerImg:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 215px;
   right: 0;
@@ -406,4 +493,127 @@
   outline: none;
   font-size: 16px;
   color: var(--clr-white);
+}
+
+/* about us */
+
+.aboutBanner {
+  background: linear-gradient(
+    171deg,
+    rgba(37, 0, 33, 1) 0%,
+    rgba(17, 1, 34, 1) 50%,
+    rgba(0, 24, 27, 1) 100%
+  );
+}
+
+.aboutBanner .banner-titleInfo {
+  min-width: fit-content;
+  max-width: fit-content;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-banner-img {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  line-height: 0;
+  position: relative;
+}
+
+.about-banner-img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.about-banner-img:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 80%);
+  top: 0;
+  left: 0;
+}
+
+.serviceCard {
+  text-align: center;
+  padding: 20px;
+  background: var(--clr-primary);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+  height: 100%;
+}
+
+.serviceCard i {
+  font-size: 50px;
+  margin: 0 0 15px;
+}
+
+.serviceCard h6 {
+  font-size: 16px;
+}
+
+.serviceCard p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+.IntroducingInfo {
+  position: relative;
+}
+
+.IntroducingInfo .imgBox {
+  margin-top: 30px;
+  height: 250px;
+}
+
+.introducingTagline {
+  max-width: 400px;
+  padding: 25px;
+  background: var(--clr-primary);
+  border-radius: 10px;
+  position: absolute;
+  bottom: -50px;
+  right: -250px;
+}
+
+.introducingTagline h6 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.introducingTagline i {
+  font-size: 100px;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  opacity: 0.1;
+}
+
+.ourService-section {
+  padding: 100px 0;
+}
+
+.ourMission-imgBox {
+  margin-top: 50px;
+  position: relative;
+}
+
+.ourMission-imgBox .our-mission-text {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img.our-mission-img {
+  position: relative;
+  z-index: 1;
 }

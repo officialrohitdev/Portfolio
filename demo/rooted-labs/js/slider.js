@@ -11,4 +11,16 @@ var swiper = new Swiper(".flavorSwiper", {
     nextEl: ".swiper-arrow-next",
     prevEl: ".swiper-arrow-prev",
   },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });

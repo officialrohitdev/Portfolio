@@ -1,4 +1,4 @@
-@media (min-width: 1400.00px) {
+@media (min-width: 1400px) {
   .banner-img img {
     width: 600px;
     min-width: 600px;
@@ -9,10 +9,80 @@
   }
 }
 
-@media (max-width: 1180.00px) {}
+@media (max-width: 1180px) {
+  .banner-grid {
+    flex-wrap: wrap;
+  }
+
+  .banner-titleInfo {
+    min-width: 50%;
+    max-width: 50%;
+    padding-bottom: 0;
+  }
+
+  .reviewInfo {
+    max-width: 100%;
+  }
+
+  .banner-img img {
+    width: 600px;
+    min-width: 600px;
+  }
+
+  .flavorInfo {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    display: none;
+  }
+
+  .RootedSymbol {
+    display: none;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .about-banner-img {
+    margin-top: 20px;
+  }
+
+  .aboutBanner .banner-titleInfo {
+    margin-top: 30px;
+  }
+
+  .verificationBanner .banner-titleInfo {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .verification-bannerImg img {
+    width: 650px;
+  }
+
+  .verification-bannerImg:after {
+    bottom: 120px;
+    width: 450px;
+    background: linear-gradient(
+      180deg,
+      rgb(19 1 34 / 0%) 0%,
+      rgb(20 1 34) 100%
+    );
+  }
+}
 
 @media (max-width: 991.98px) {
+  .head-social {
+    min-width: fit-content;
+    display: none;
+  }
 
+  .navigation {
+    flex: inherit;
+    margin-left: auto;
+  }
   /* Toggle Nav */
 
   .ToggleButton {
@@ -36,7 +106,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background: var(--clr-dark);
+    background: var(--clr-light);
     transition: all 0.3s ease-in-out;
     z-index: 3;
   }
@@ -49,7 +119,7 @@
     background: var(--clr-white);
   }
 
-  .ToggleButton[aria-expanded="true"]+#SideNav {
+  .ToggleButton[aria-expanded="true"] + #SideNav {
     transform: translateX(0);
   }
 
@@ -74,7 +144,7 @@
     top: 0;
     left: 0;
     height: 100vh;
-    background: var(--clr-white);
+    background: var(--clr-primary);
     width: 50%;
     box-shadow: 0 0 10px rgb(0 0 0 / 15%);
     display: flex;
@@ -84,7 +154,7 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .ToggleButton[aria-expanded="true"]+#sideaNav {
+  .ToggleButton[aria-expanded="true"] + #sideaNav {
     transform: translateX(0);
   }
 
@@ -112,6 +182,7 @@
     align-items: center;
     border-bottom: 1px solid var(--clr-border);
     margin-bottom: 20px;
+    width: 100%;
   }
 
   .sidenav-logo img {
@@ -120,6 +191,7 @@
   }
 
   #sideaNav .navbar-nav {
+    width: 100%;
     margin: 0 !important;
     gap: 15px;
     flex: 1;
@@ -127,44 +199,244 @@
     text-align: left;
     flex-direction: column !important;
     align-items: flex-start;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
   }
 
   #sideaNav .navbar-nav .nav-item {
-    padding: 0 20px;
+    padding: 0;
+    width: 100%;
   }
 
   .navbar-nav .nav-link {
-    color: var(--clr-dark);
+    width: 100%;
+    border-radius: 0;
+    padding: 8px 20px !important;
   }
 
-  .navbar-nav .nav-link.active {
-    color: var(--clr-primary);
+  header {
+    padding: 15px 0;
   }
-
-  /* Toggle Nav end */
 
   .headroom--unpinned {
     transform: translateY(0);
   }
 
-  header {
-    min-height: 65px;
+  /* Toggle Nav end */
+
+  .banner-grid {
+    flex-direction: column-reverse;
+    gap: 20px;
   }
 
-  .header-nav {
-    flex-direction: row;
-    justify-content: space-between;
+  .banner-titleInfo {
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
   }
 
-  .navbar-brand img {
-    width: 75px;
-    min-width: 75px;
+  .banner-titleInfo h1 br {
+    display: none;
   }
 
+  .banner-img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .custom-space {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .productTitle {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-btns .swiper-arrows {
+    display: none;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .footer-effectLogo {
+    position: absolute;
+    top: -60px;
+    right: 20px;
+    padding: 20px;
+    display: none;
+  }
+
+  .footer-effectLogo img {
+    width: 70px;
+  }
+
+  footer::before {
+    width: 100px;
+    display: none;
+  }
+
+  .footer-logo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .copyright-info {
+    margin-top: 20px;
+  }
+
+  #scrollTotop.showscroll {
+    right: 5px;
+  }
+
+  .introducingTagline {
+    position: unset;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .ourService-section {
+    padding-bottom: 50px;
+  }
+
+  .verification-bannerImg {
+    display: none;
+  }
+
+  .verificationBanner {
+    flex: 1;
+    display: flex;
+    padding: 30px 15px;
+  }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+  #sideaNav {
+    width: 70%;
+  }
+  .navbar-brand img {
+    width: 70px;
+    min-width: 70px;
+  }
+  .banner-img img {
+    width: 900%;
+    min-width: 90%;
+  }
 
-@media (max-width: 375px) {}
+  .banner-titleInfo h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 15px 0;
+  }
 
-@media (max-width: 320px) {}
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .custom-space {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .topBanner {
+    padding: 70px 10px 20px;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+    margin: 0 0 15px;
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-banner-img {
+    margin-top: 0px;
+  }
+
+  .introducingTagline {
+    margin-top: 15px;
+  }
+
+  .ourService-section {
+    padding-bottom: 50px;
+  }
+
+  .shortBanner {
+    min-height: 150px;
+  }
+
+  .productBanner {
+    background: linear-gradient(
+      179deg,
+      rgba(37, 0, 33, 1) 0%,
+      rgba(17, 1, 34, 1) 50%,
+      rgba(0, 24, 27, 1) 100%
+    );
+  }
+
+  .product-card {
+    padding: 15px;
+  }
+
+  .footer-logo {
+    text-align: center;
+    align-items: center;
+  }
+
+  footer .container {
+    padding-top: 30px;
+  }
+
+  .verification-InputBox {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .verification-InputBox input {
+    text-align: center;
+    border: 1px solid #444;
+    padding: 10px 15px;
+    border-radius: 30px;
+  }
+
+  .copyright-info {
+    flex-direction: column-reverse;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-links ul li a {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-links ul li a:after {
+    display: none;
+  }
+
+  .verificationBanner {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
