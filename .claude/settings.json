@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($text = [System.IO.File]::ReadAllText\\('c:\\\\Users\\\\lenovo\\\\OneDrive\\\\Desktop\\\\Portfolio\\\\demo\\\\vaping-parlay\\\\index.html'\\); $matches = [regex]::Matches\\($text, [regex]::Escape\\('Lorem Ipsum'\\)\\); foreach \\($m in $matches\\) { \"Index: $\\($m.Index\\) Context: '$\\($text.Substring\\([math]::Max\\(0,$m.Index-3\\), 30\\)\\)'\" })",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\('c:\\\\Users\\\\lenovo\\\\OneDrive\\\\Desktop\\\\Portfolio\\\\demo\\\\vaping-parlay\\\\index.html'\\); $text = [System.Text.Encoding]::UTF8.GetString\\($bytes\\); $idx = 12987; \"BEFORE p tag:\"; for \\($i=$idx-20; $i -lt $idx; $i++\\) { \"{0}: \\({1}\\) '{2}'\" -f $i, [int]$text[$i], $text[$i] }; \"Content from $idx for 200 chars:\"; $text.Substring\\($idx, 200\\))",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\('c:\\\\Users\\\\lenovo\\\\OneDrive\\\\Desktop\\\\Portfolio\\\\demo\\\\vaping-parlay\\\\index.html'\\); $text = [System.Text.Encoding]::UTF8.GetString\\($bytes\\); $idx = 12984; for \\($i=$idx; $i -lt $idx+105; $i++\\) { \"{0}: \\({1}\\) '{2}'\" -f $i, [int]$text[$i], $text[$i] })",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\('c:\\\\Users\\\\lenovo\\\\OneDrive\\\\Desktop\\\\Portfolio\\\\demo\\\\vaping-parlay\\\\index.html'\\); $text = [System.Text.Encoding]::UTF8.GetString\\($bytes\\); foreach \\($pos in @\\(17406, 21487\\)\\) { \"=== pos $pos ===\"; for \\($i=$pos; $i -lt $pos+20; $i++\\) { \"{0}: \\({1}\\) '{2}'\" -f $i, [int]$text[$i], $text[$i] } })",
+      "PowerShell($path = 'c:\\\\Users\\\\lenovo\\\\OneDrive\\\\Desktop\\\\Portfolio\\\\demo\\\\vaping-parlay\\\\index.html'; $text = [System.IO.File]::ReadAllText\\($path, [System.Text.Encoding]::UTF8\\); $nbsp = [char]160; $oldStr = \"<p>Lorem${nbsp}Ipsum${nbsp}is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the`r`n                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and`r`n                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap`r`n                into electronic typesetting, remaining essentially unchanged.</p>\"; \"Old string found: \" + $text.Contains\\($oldStr\\))"
+    ]
+  }
+}
