@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Directory</title>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="./icon/material-icon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/nice-select.css" />
+  <link rel="stylesheet" href="./css/master.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <header id="myHeader" class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="header-nav">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo.png" alt="" />
+          </a>
+
+          <div class="navigation">
+            <button class="navbar-toggler ToggleButton" type="button" data-bs-toggle="collapse"
+              data-bs-target="#sideaNav" aria-controls="sideaNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="nav-overlay" data-bs-toggle="collapse" data-bs-target="#sideaNav"></div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="sideaNav">
+              <a href="index.html" class="sidenav-logo d-lg-none">
+                <img src="./img/logo.png" alt="" />
+              </a>
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="./index.html" type="button" class="nav-link active">
+                    Home
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="javascript:void(0)" type="button" class="nav-link">
+                    Find A Travel Pro
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="javascript:void(0)" type="button" class="nav-link">
+                    Destinations
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="javascript:void(0)" type="button" class="nav-link">
+                    Styles
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="javascript:void(0)" type="button" class="nav-link">
+                    Travel Blogs
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="javascript:void(0)" type="button" class="nav-link">
+                    FAQs
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <a href="javascript:void(0)" class="ThemeBtn">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="topBanner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="bannerInfo">
+              <h1>Travel <span>Advisor</span> Directory</h1>
+              <h2>Discover & Connect With Great Places Around The World</h2>
+
+              <div class="travelSearch">
+                <h3>Find Your Travel Specialist</h3>
+
+                <form class="searchForm">
+                  <div class="custom-select selectState">
+                    <select class="form-control">
+                      <option data-display="All States" value="AllStates">Select State</option>
+                      <option value="1">Madhya Pradesh</option>
+                      <option value="2">Maharashtra</option>
+                      <option value="3">Rajasthan</option>
+                    </select>
+                  </div>
+
+                  <div class="custom-select selectState selectStyle">
+                    <select class="form-control">
+                      <option data-display="All Styles" value="AllStyles">Select Style</option>
+                      <option value="1">Adventure</option>
+                      <option value="2">Cultural</option>
+                      <option value="3">Religious</option>
+                    </select>
+                  </div>
+
+                  <div class="custom-select selectState">
+                    <select class="form-control">
+                      <option data-display="All Destinations" value="AllDestinations">Select Destination</option>
+                      <option value="1">India</option>
+                      <option value="2">Italy</option>
+                      <option value="3">France</option>
+                    </select>
+                  </div>
+
+                  <button class="ThemeBtn" type="submit">
+                    Search
+                    <i class="material-icons">search</i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom-space">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <div class="sectionTitle centerTitle">
+              <h6>FIND OUT HERE</h6>
+              <h2>How It Works</h2>
+              <p>See why listing easy is one of the best friends for exploring the city</p>
+            </div>
+          </div>
+        </div>
+        <div class="how-itWorks">
+          <img src="./icon/work-location-line.svg" class="workLine" alt="work location" class="workLocationIcon" />
+          <div class="row">
+            <div class="col=lg-4 col-md-4 col-12">
+              <div class="worksCard">
+                <div class="iconBox">
+                  <span>01</span>
+                  <img src="./icon/intresting-place-icon.svg" alt="place icon" />
+                </div>
+                <h3>Find Interesting Place</h3>
+                <p>Discover & connect with great local businesses in your local neighborhood like dentists,
+                  hair stylists and more.</p>
+              </div>
+            </div>
+
+            <div class="col=lg-4 col-md-4 col-12">
+              <div class="worksCard">
+                <div class="iconBox">
+                  <span>02</span>
+                  <img src="./icon/review-lestings-icon.svg" alt="place icon" />
+                </div>
+                <h3>Review Listings</h3>
+                <p>Get valuable insights about listings and tell other readers about your experiences by leaving reviews
+                  for businesses.</p>
+              </div>
+            </div>
+
+            <div class="col=lg-4 col-md-4 col-12">
+              <div class="worksCard">
+                <div class="iconBox">
+                  <span>03</span>
+                  <img src="./icon/reservation-icon.svg" alt="place icon" />
+                </div>
+                <h3>Make A Reservation</h3>
+                <p>Easily setup an appointment directly from the business listing page using our integrated booking
+                  options.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom-space bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="best-placeThumbnails">
+              <img src="./img/desination-signature.png" alt="signature" class="signature" />
+              <div class="thumbnail-item img-hover" style="grid-row: item-1">
+                <img src="./img/thumb-1.png" alt="place thumbnail" />
+              </div>
+
+              <div class="thumbnail-item img-hover" style="grid-row: item-2">
+                <img src="./img/thumb-3.png" alt="place thumbnail" />
+              </div>
+
+              <div class="thumbnail-item" style="grid-row: item-3">
+                <img src="./img/thumb-2.png" alt="place thumbnail" />
+                <img src="./img/do-shape.png" alt="shape" class="do-shape" />
+                <img src="./img/dot-shape.png" alt="shape" class="dot-shape" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="what-weDo">
+              <div class="sectionTitle">
+                <h6>WHAT WE DO</h6>
+                <h2>Let's Discover The Best</h2>
+                <h3>Places in the town</h3>
+              </div>
+
+              <div class="checkList">
+                <img src="./icon/check.svg" alt="icon" class="check-icon">
+                <div class="checkListInfo">
+                  <h4>Stay connected and organized</h4>
+                  <p>Etiam condimentum augue commodo euismo vitae lectus ornare, ornare velit nec.</p>
+                </div>
+              </div>
+
+              <div class="checkList">
+                <img src="./icon/check.svg" alt="icon" class="check-icon">
+                <div class="checkListInfo">
+                  <h4>Strong Community</h4>
+                  <p>Etiam condimentum augue commodo euismo vitae lectus ornare, ornare velit nec.</p>
+                </div>
+              </div>
+
+              <div class="checkList">
+                <img src="./icon/check.svg" alt="icon" class="check-icon">
+                <div class="checkListInfo">
+                  <h4>Authorised Listings</h4>
+                  <p>Etiam condimentum augue commodo euismo vitae lectus ornare, ornare velit nec.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+
+  <button id="scrollTotop">
+    <div class="ScrollArrow">
+      <i class="material-icons">expand_less</i>
+    </div>
+  </button>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/headroom.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/jquery.nice-select.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
