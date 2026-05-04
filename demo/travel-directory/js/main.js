@@ -1,3 +1,5 @@
+AOS.init();
+
 // Nice select 
 
 $('select').niceSelect();
@@ -35,4 +37,36 @@ $(document).ready(function () {
   $("#scrollTotop").click(function () {
     $(window).scrollTop(0);
   });
+});
+
+// slider
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  slidesPerView: 4,
+  speed: 1000,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2, 
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
 });

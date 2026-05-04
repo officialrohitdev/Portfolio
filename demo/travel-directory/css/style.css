@@ -101,6 +101,10 @@
     top: 10px;
     left: 0;
     z-index: -1;
+
+    @media (max-width: 767.98px) {
+      display: none;
+    }
   }
 }
 
@@ -121,6 +125,7 @@
     background: var(--clr-light);
     margin-bottom: 30px;
     position: relative;
+    transition: all 0.3s ease-in-out;
 
     &::after {
       content: '';
@@ -134,11 +139,6 @@
       transform: rotate(-10deg);
       opacity: 0.5;
       z-index: -1;
-    }
-
-    svg {
-      height: 80px;
-      object-fit: contain;
     }
 
     span {
@@ -155,6 +155,15 @@
       align-items: center;
       justify-content: center;
       font-size: 12px;
+    }
+
+    &:hover {
+      background: var(--clr-primary);
+      color: var(--clr-white);
+
+      img {
+        filter: brightness(100);
+      }
     }
   }
 
@@ -261,8 +270,17 @@
   gap: 1rem;
   grid-template-areas:
     "item-1 item-2 item-2 item-3"
-    "item-1 item-4 item-5 item-5"
+    "item-1 item-4 item-5 item-5";
 
+    @media (max-width: 767.98px) {
+      grid-template-areas:
+        "item-1 item-1 item-1 item-1"
+        "item-2 item-2 item-2 item-2"
+        "item-3 item-3 item-3 item-3"
+        "item-4 item-4 item-4 item-4"
+        "item-5 item-5 item-5 item-5"
+        ;
+    } 
 }
 
 .destination-itemBox {
@@ -282,6 +300,7 @@
     width: 100%;
     height: 150px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    pointer-events: none;
   }
 
   &::before {
@@ -355,6 +374,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
   gap: 1rem;
+
+  @media (max-width: 767.98px) {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .worksCard {
     background: var(--clr-white);
@@ -650,7 +673,7 @@
     figcaption {
       bottom: 50%;
       transform: translate(-50%, -50%);
-      font-size: 24px;
+      font-size: clamp(16px, 4vw, 24px);
     }
   }
 }

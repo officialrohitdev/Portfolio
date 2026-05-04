@@ -453,7 +453,7 @@ main {
 .footer-social {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 
   h3 {
     margin: 0;
@@ -535,6 +535,10 @@ main {
 
     img {
       width: 120px;
+    }
+
+    @media (max-width: 767.98px) {
+      display: none;
     }
   }
 
