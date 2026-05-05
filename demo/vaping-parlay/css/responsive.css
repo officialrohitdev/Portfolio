@@ -27,6 +27,7 @@
 
 @media (max-width: 991.98px) {
   header {
+    min-height: auto;
     &.headroom--unpinned {
       transform: translateY(0);
     }
@@ -54,13 +55,16 @@
       display: block;
       width: 24px;
       height: 2px;
+      border-radius: 5px;
       background: var(--clr-white);
       transition: all 0.3s ease-in-out;
       z-index: 3;
+      transform: rotate(0deg);
 
       &:nth-child(2) {
         width: 16px;
       }
+
     }
 
     .nav-overlay {
@@ -80,20 +84,17 @@
       span {
         background: var(--clr-white);
 
-        &:nth-child(2) {
-          opacity: 0;
+        &:first-child {
+          transform: rotate(-45deg) translate(-5px, 5px);
         }
 
-        &:first-child {
-          transform: rotate(-45deg);
-          top: 6px;
-          position: relative;
+        &:nth-child(2) {
+          opacity: 0;
+          transform: translateX(-20px);
         }
 
         &:nth-child(3) {
-          transform: rotate(45deg);
-          top: -8px;
-          position: relative;
+          transform: rotate(45deg) translate(-5px, -5px);
         }
       }
 
@@ -112,7 +113,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100dvh;
     background: var(--clr-dark);
     width: 50%;
     box-shadow: 0 0 10px rgb(0 0 0 / 15%);

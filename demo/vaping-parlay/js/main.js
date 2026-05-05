@@ -1,5 +1,15 @@
 AOS.init();
 
+const sideNav = document.getElementById("sideaNav");
+
+sideNav.addEventListener("shown.bs.collapse", function () {
+  document.body.style.overflow = "hidden";
+});
+
+sideNav.addEventListener("hidden.bs.collapse", function () {
+  document.body.style.overflow = "";
+});
+
 // scrollTop
 
 $(document).ready(function () {
